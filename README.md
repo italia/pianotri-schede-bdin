@@ -20,3 +20,5 @@ make html
 ```
 
 ### Schede descrittive navigabili online
+
+L'elenco e le relative schede descrittive sono [navigabili online](http://pianotri-schede-bdin.readthedocs.io/en/latest/index.html)
