@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://dati.gov.it/onto/dcatapit",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Versione 2.0 del 18-03-2016 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT).",
+      "dcterms:identifier": "http://dati.gov.it/onto/dcatapit/2.0",
+      "dcterms:title": "DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA"
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
+      "@type": [
+        "foaf:Agent",
+        "dcatapit:Agent"
+      ],
+      "dcterms:identifier": "agid",
+      "foaf:name": "Agenzia per l'Italia Digitale"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Attuazione della direttiva 2013/37/UE che modifica la direttiva 2003/98/CE, relativa al riutilizzo dell'informazione del settore pubblico.",
+      "dcterms:identifier": "2015/07/10/15G00116",
+      "dcterms:title": "DECRETO LEGISLATIVO 18 maggio 2015, n. 102"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/datigov_13",
+      "@type": [
+        "dcat:Dataset",
+        "dcatapit:Dataset"
+      ],
+      "dcat:contactPoint": {
+        "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_datigov"
+      },
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/JUST"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/AGRI"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/INTR"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/HEAL"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ENER"
+        }
+      ],
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/WEEKLY"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/onto/dcatapit"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "dati.gov.it è il catalogo nazionale dei metadati relativi, allo stato attuale, ai dati rilasciati in formato aperto dalle pubbliche amministrazioni italiane. Esso rappresenta, quindi, il punto di accesso per tutti gli utenti ai dati aperti delle amministrazione, svolgendo anche le funzioni di ricerca come previste nella relativa normativa dell’Informazione del Settore Pubblico. Il catalogo è realizzato dall’Agenzia per l’Italia digitale ed è online dal novembre 2011. L’attività di pubblicazione e di aggiornamento dei dati è un processo collaborativo coordinato dall’Agenzia per l’Italia digitale e svolto in raccordo con tutti gli enti pubblici che espongono dati di tipo aperto. Dati.gov.it è anche lo strumento con il quale l’Agenzia per l’Italia digitale promuove le politiche di valorizzazione del patrimonio informativo pubblico nazionale. A tal fine dati.gov.it mette a disposizione delle amministrazioni e degli sviluppatori una serie di risorse utili ad approfondire il tema dei dati aperti. Attraverso dati.gov.it è possibile, tra gli altri: (i) icercare i dati: nel catalogo sono disponibili i metadati dei dataset pubblicati dalle pubbliche amministrazioni italiane; (ii) usare i metadati: sezione dedicata agli sviluppatori per utilizzare i metadati del catalogo attraverso le API. Il catalogo Dati.gov.it, alla pari degli altri disponibili presso altri Paesi europei, contribuisce ad alimentare il Portale europeo dei dati. E’ in corso una riorganizzazione del catalogo per trasformarlo in un catalogo di dati pubblici della pubblica amministrazione. I canali per il supporto ad amministrazioni e altri utenti sono: 1. Issue tracking su developers Italia; 2. form online “Scrivi alla redazione” 3. Direttamente via email usando l’indirizzo info@dati.gov.it"
+      },
+      "dcterms:identifier": "agid_datigov:D.13",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-08-01"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      },
+      "dcterms:title": "Base dati del catalogo nazionale dei dati aperti delle Pubbliche Amministrazioni - dati.gov.it"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_datigov",
+      "@type": [
+        "dcatapit:Organization",
+        "vcard:Kind",
+        "vcard:Organization"
+      ],
+      "vcard:fn": "Area Architetture, Standard e Infrastrutture - Servizio Banche Dati e Open Data",
+      "vcard:hasEmail": {
+        "@id": "mailto:info@dati.gov.it"
+      }
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Codice dell'amministrazione digitale",
+      "dcterms:identifier": "2005/05/16/005G0104",
+      "dcterms:title": "DECRETO LEGISLATIVO 7 marzo 2005, n. 82"
+    }
+  ]
+}

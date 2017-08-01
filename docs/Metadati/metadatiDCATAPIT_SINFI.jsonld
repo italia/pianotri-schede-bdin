@@ -1,0 +1,137 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://dati.gov.it/resource/Standard/Standard_SINFI_CEDMISE",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:identifier": "CED-MiSE",
+      "dcterms:title": "Standard CED MiSE"
+    },
+    {
+      "@id": "http://data.europa.eu/eli/dir/2014/61/oj",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocità Testo rilevante ai fini del SEE",
+      "dcterms:identifier": "2014/61",
+      "dcterms:title": "Direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_SINFI",
+      "@type": [
+        "dcatapit:Organization",
+        "vcard:Organization",
+        "vcard:Kind"
+      ],
+      "vcard:fn": "MiSE - Direzione generale per i servizi di comunicazione elettronica, di radiodiffusione e postali",
+      "vcard:hasEmail": {
+        "@id": "mailto:dgscerp.dg@pec.mise.gov.it"
+      }
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Attuazione della direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014, recante misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocita'.",
+      "dcterms:identifier": "2016/03/09/16G00041",
+      "dcterms:title": "DECRETO LEGISLATIVO 15 febbraio 2016, n. 33"
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec",
+      "@type": [
+        "foaf:Agent",
+        "dcatapit:Agent"
+      ],
+      "dcterms:identifier": "m_svec",
+      "foaf:name": "Ministero Sviluppo Economico"
+    },
+    {
+      "@id": "http://data.europa.eu/eli/dir/2007/2/oj",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)",
+      "dcterms:identifier": "2007/2/EC",
+      "dcterms:title": "Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2016/06/16/16A04456/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture.",
+      "dcterms:identifier": "2016/06/16/16A04456",
+      "dcterms:title": "MINISTERO DELLO SVILUPPO ECONOMICO - DECRETO 11 maggio 2016  "
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/SINFI_17",
+      "@type": [
+        "dcat:Dataset",
+        "dcatapit:Dataset"
+      ],
+      "dcat:contactPoint": {
+        "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_SINFI"
+      },
+      "dcat:landingPage": {
+        "@id": "http://www.sinfi.it"
+      },
+      "dcat:theme": {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+      },
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://data.europa.eu/eli/dir/2007/2/oj"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2016/06/16/16A04456/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/Standard/Standard_SINFI_CEDMISE"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2014/61/oj"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "Registro unico, strumento collaborativo e marketplace delle infrastrutture. Benefici per privati: (i) risparmio (70%) posa nuove fibre ottiche; (ii) condivisione infrastrutture sotterranee; (iii) condivisione scavi (risparmio per cittadini ed operatori). Benefici per altre amministrazioni: (i) presidio del sottosuolo per contributi fiscali; (ii) raccolta dei dati Once Only e condivisione tra le amministrazioni (iii) Possibilità di sfruttare l’infrastruttura come cloud per generare i propri Database Geo Topografici ed i propri GeoPortali (risparmio di risorse, standardizzazione). La banca dati è disponibile via interfaccia web standard. Inoltre esistono due tipi di API Rest: 1. tipiche API Rest in formato standard geografico OCG; 2. specifiche API Rest per la federazione con altri database geotopografici e/o servizi in cloud. I canali per il supporto ad altre amministrazioni e utenti finali sono: (i) Contact Center SINFI: 06.92959765 e (ii) email: validazione@sinfi.it"
+      },
+      "dcterms:identifier": "m_svec_SINFI:D.17",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-01-08"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec"
+      },
+      "dcterms:title": "Sistema informativo nazionale federato delle infrastrutture",
+      "skos:altLabel": "SINFI"
+    }
+  ]
+}

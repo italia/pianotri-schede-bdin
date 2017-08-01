@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec",
+      "@type": [
+        "foaf:Agent",
+        "dcatapit:Agent"
+      ],
+      "dcterms:identifier": "m_svec",
+      "foaf:name": "Ministero dello Sviluppo Economico"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche",
+      "dcterms:identifier": "201609/13/16G00192",
+      "dcterms:title": "DECRETO LEGISLATIVO 26 agosto 2016, n. 179"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2009/01/28/09A00989/sg",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Testo del decreto-legge 29 novembre 2008, n. 185 (in Gazzetta Ufficiale - n. 280 del 29 novembre 2008, S.O. n. 263/L), coordinato con la legge di conversione 28 gennaio 2009, n. 2 (in questo stesso supplemento ordinario alla pag.1), recante: Misure urgenti per il sostegno a famiglie, lavoro, occupazione e impresa e per ridisegnare in funzione anti-crisi il quadro strategico nazionale",
+      "dcterms:identifier": "2009/01/28/09A00989",
+      "dcterms:title": "TESTO COORDINATO DEL DECRETO-LEGGE 29 novembre 2008, n. 185"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/INIPEC_11",
+      "@type": [
+        "dcatapit:Dataset",
+        "dcat:Dataset"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://www.inipec.gov.it/"
+      },
+      "dcat:theme": {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+      },
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2013/04/09/13A02969/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISO90012008"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2009/01/28/09A00989/sg"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISOIEC27001"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "lINI-PEC è l’Indice Nazionale degli Indirizzi di Posta Elettronica Certificata, istituito presso il Ministero dello Sviluppo Economico. INI-PEC raccoglie tutti gli indirizzi di posta elettronica certificata (PEC) delle imprese e dei professionisti presenti sul territorio italiano ed è pensato per chiunque abbia la necessità di contattare un professionista o un’impresa mediante l’uso della PEC. L’indice viene puntualmente aggiornato con i dati provenienti dal Registro Imprese, dagli Ordini e dai Collegi di appartenenza, nelle modalità stabilite dalla legge. L’art. 6 del D.Lgs. n. 82/2005 e s.m.i. (“Codice dell’Amministrazione Digitale”, o “CAD”), prescrive la possibilità da parte della Pubblica Amministrazione di utilizzare la PEC per ogni scambio di documenti e informazioni e, a tal fine, INI-PEC rende agevole il reperimento delle informazioni di imprese e professionisti che sono tenuti a possedere un proprio indirizzo PEC. E’ possibile effettuare ricerche per singole posizioni, da portale, o in modalità massiva, mediante servizi di cooperazione applicativa (SPCoop) ed altri servizi evoluti disponibili per le pubbliche amministrazioni. Il Ministero dello Sviluppo Economico disciplina mediante propri decreti tempi e modalità della raccolta, dell’aggiornamento e dell’accesso agli indirizzi di posta elettronica certificata, messi a disposizione degli utenti tramite il portale INI-PEC. La gestione informatica del servizio è affidata dal Ministero dello Sviluppo Economico ad InfoCamere scpa. L’INI-PEC è suddiviso in due sezioni denominate, rispettivamente, “Sezione Imprese” e “Sezione Professionisti”. Ciascuna Sezione prevede informazioni e modalità di aggiornamento distinte. La Sezione Imprese è alimentata quotidianamente dal Registro delle Imprese con le informazioni relative alle imprese che risultano attive e che hanno provveduto al deposito del proprio indirizzo PEC. Sono escluse le PEC di soggetti iscritti al solo REA e le PEC di imprese cancellate dal Registro Imprese. La Sezione Professionisti è alimentata con trasferimento in via telematica da parte degli Ordini e Collegi professionali all’INI-PEC, degli indirizzi PEC relativi ai propri iscritti. Ai fini dell’aggiornamento delle informazioni della Sezione Professionisti, gli Ordini e Collegi professionali provvedono, con frequenza giornaliera, alla comunicazione per via telematica delle variazioni intervenute. Il portale INI-PEC rende disponibili agli Ordini e Collegi professionali funzioni puntuali e massive per il caricamento e l’aggiornamento degli indirizzi PEC dei propri iscritti. L’interoperabilità della banca dati è garantita dall’esposizione dei servizi in SPCoop, che consentono la consultazione da parte delle pubbliche amministrazioni, secondo le disposizioni vigenti.Servizio di supporto e assistenza, numero di telefono e contatti disponibili su sito INI-PEC (https://www.inipec.gov.it) L’accesso ad INI-PEC avviene tramite sito web ed SPCoop."
+      },
+      "dcterms:identifier": "m_svec_INIPEC:D.11",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-07-31"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec"
+      },
+      "dcterms:title": "Indice Nazionale degli Indirizzi di Posta Elettronica Certificata",
+      "skos:altLabel": "INI-PEC"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISOIEC27001",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:identifier": "ISOIEC27001",
+      "dcterms:title": "ISO/IEC 27001:2013"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2013/04/09/13A02969/sg",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Indice nazionale degli indirizzi di posta elettronica certificata delle imprese e dei professionisti (INI-PEC).",
+      "dcterms:identifier": "2013/04/09/13A02969",
+      "dcterms:title": "MINISTERO DELLO SVILUPPO ECONOMICO  - DECRETO 19 marzo 2013"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Testo del decreto-legge 18 ottobre 2012, n. 179 (pubblicato nel supplemento ordinario n. 194/L alla Gazzetta Ufficiale 19 ottobre 2012, n. 245), coordinato con la legge di conversione 17 dicembre 2012, n. 221 (in questo stesso supplemento ordinario alla pag. 1), recante: Ulteriori misure urgenti per la crescita del Paese.",
+      "dcterms:identifier": "2012/12/18/12A13277",
+      "dcterms:title": "TESTO COORDINATO DEL DECRETO-LEGGE 18 ottobre 2012, n. 179"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISO90012008",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:identifier": "ISO90012008",
+      "dcterms:title": "ISO 9001:2008"
+    }
+  ]
+}

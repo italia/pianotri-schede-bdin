@@ -1,0 +1,49 @@
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dati.gov.it/resource/Dataset/BDIN/datigov_13>
+  a dcatapit:Dataset, dcat:Dataset ;
+  dct:title "Base dati del catalogo nazionale dei dati aperti delle Pubbliche Amministrazioni - dati.gov.it" ;
+  dct:description """dati.gov.it è il catalogo nazionale dei metadati relativi, allo stato attuale, ai dati rilasciati in formato aperto dalle pubbliche amministrazioni italiane. Esso rappresenta, quindi, il punto di accesso per tutti gli utenti ai dati aperti delle amministrazione, svolgendo anche le funzioni di ricerca come previste nella relativa normativa dell’Informazione del Settore Pubblico. Il catalogo è realizzato dall’Agenzia per l’Italia digitale ed è online dal novembre 2011. L’attività di pubblicazione e di aggiornamento dei dati è un processo collaborativo coordinato dall’Agenzia per l’Italia digitale e svolto in raccordo con tutti gli enti pubblici che espongono dati di tipo aperto. Dati.gov.it è anche lo strumento con il quale l’Agenzia per l’Italia digitale promuove le politiche di valorizzazione del patrimonio informativo pubblico nazionale. A tal fine dati.gov.it mette a disposizione delle amministrazioni e degli sviluppatori una serie di risorse utili ad approfondire il tema dei dati aperti. Attraverso dati.gov.it è possibile, tra gli altri: (i) icercare i dati: nel catalogo sono disponibili i metadati dei dataset pubblicati dalle pubbliche amministrazioni italiane; (ii) usare i metadati: sezione dedicata agli sviluppatori per utilizzare i metadati del catalogo attraverso le API. Il catalogo Dati.gov.it, alla pari degli altri disponibili presso altri Paesi europei, contribuisce ad alimentare il Portale europeo dei dati. E’ in corso una riorganizzazione del catalogo per trasformarlo in un catalogo di dati pubblici della pubblica amministrazione. I canali per il supporto ad amministrazioni e altri utenti sono: 1. Issue tracking su developers Italia; 2. form online “Scrivi alla redazione” 3. Direttamente via email usando l’indirizzo info@dati.gov.it"""@it ;
+  dct:identifier "agid_datigov:D.13" ;
+  dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
+  dcat:contactPoint <http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_datigov> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/WEEKLY> ;
+  dct:modified "2017-08-01"^^xsd:date ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <http://publications.europa.eu/resource/authority/data-theme/ECON> , <http://publications.europa.eu/resource/authority/data-theme/EDUC> , <http://publications.europa.eu/resource/authority/data-theme/ENER> , <http://publications.europa.eu/resource/authority/data-theme/ENVI> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <http://publications.europa.eu/resource/authority/data-theme/INTR> , <http://publications.europa.eu/resource/authority/data-theme/JUST> , <http://publications.europa.eu/resource/authority/data-theme/REGI> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <http://publications.europa.eu/resource/authority/data-theme/TECH> , <http://publications.europa.eu/resource/authority/data-theme/TRAN> ;
+  dct:conformsTo <http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg> ,  <http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg> ,
+  <http://dati.gov.it/onto/dcatapit> .
+
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "agid" ;
+    foaf:name "Agenzia per l'Italia Digitale" .
+
+<http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_datigov>
+  a vcard:Kind , vcard:Organization , dcatapit:Organization ;
+  vcard:fn "Area Architetture, Standard e Infrastrutture - Servizio Banche Dati e Open Data" ;
+  vcard:hasEmail <mailto:info@dati.gov.it> .
+
+<http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2005/05/16/005G0104" ;
+  dct:title "DECRETO LEGISLATIVO 7 marzo 2005, n. 82" ;
+  dct:description "Codice dell'amministrazione digitale" .
+
+<http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2015/07/10/15G00116" ;
+  dct:title "DECRETO LEGISLATIVO 18 maggio 2015, n. 102" ;
+  dct:description "Attuazione della direttiva 2013/37/UE che modifica la direttiva 2003/98/CE, relativa al riutilizzo dell'informazione del settore pubblico." .
+
+<http://dati.gov.it/onto/dcatapit>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "http://dati.gov.it/onto/dcatapit/2.0" ;
+  dct:title "DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA" ;
+  dct:description "Versione 2.0 del 18-03-2016 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT)." .

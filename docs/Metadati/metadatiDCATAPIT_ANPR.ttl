@@ -1,0 +1,90 @@
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dati.gov.it/resource/Dataset/BDIN/ANPR_2>
+  a dcatapit:Dataset, dcat:Dataset ;
+  dct:title "Anagrafe Nazionale della Popolazione Residente" ;
+  skos:altLabel "ANPR" ;
+  dct:description """Base dati centrale per la popolazione residente italiana e degli iscritti AIRE. I principali benefici dell'ANPR sono quelli di offrire una base dati autoritativa per la popolazione residente. La base di dati può essere fruita secondo le seguenti modalità: (i) Web Service: i web services sono offerti in modalità SOAP, con layer di sicurezza SAML su canale di trasmissione HTTPS; e (ii) Applicazione Web.I canali per il supporto ad amministrazioni e utenti sono i seguenti: 1. GitHub; 2. forum; 3. newsletter. Tutta la documentazione tecnica è disponibile su docs italia - ANPR http://docs.anpr.it"""@it ;
+  dct:identifier "m_it_ANPR:D.2" ;
+  dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT> ;
+  dcat:landingPage <http://anpr.interno.it> ;
+  dct:modified "2017-08-01"^^xsd:date ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+  dcat:contactPoint <http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANPR> ;
+  dct:conformsTo <http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSDL> , <http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SOAP> , <http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SAML> , <http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSsecurity> ,
+  <http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_X509> ,
+  <http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_smartcard>, <http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg> , <http://www.gazzettaufficiale.it/eli/id/2013/10/01/13G00152/sg>,
+  <http://www.gazzettaufficiale.it/eli/id/2015/01/08/15G00002/sg> ,
+  <http://www.gazzettaufficiale.it/eli/id/2015/08/14/15G00140/sg%20> .
+
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "m_it" ;
+    foaf:name "Ministero dell'Interno" .
+
+<http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANPR>
+   a vcard:Kind , vcard:Organization , dcatapit:Organization ;
+   vcard:fn "Team per la Trasformazione Digitale" ;
+   vcard:hasEmail <mailto:mirko@teamdigitale.governo.it> .
+
+<http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSDL>
+  a dcatapit:Standard, dct:Standard ;
+  dct:identifier "WSDL" ;
+  dct:title "Web Service Definition Language" .
+
+<http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SOAP>
+  a dcatapit:Standard, dct:Standard ;
+  dct:identifier "SOAP" ;
+  dct:title "Simple Object Access Protocol" .
+
+<http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SAML>
+  a dcatapit:Standard, dct:Standard ;
+  dct:identifier "SAML" ;
+  dct:title "Security Assertion Markup Language" .
+
+<http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSsecurity>
+  a dcatapit:Standard, dct:Standard ;
+  dct:identifier "WS-Security" ;
+  dct:title "Web Services Security" .
+
+<http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_X509>
+  a dcatapit:Standard, dct:Standard ;
+  dct:identifier "X509" ;
+  dct:title "X.509" .
+
+<http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_smartcard>
+  a dcatapit:Standard, dct:Standard ;
+  dct:identifier "smartcard" ;
+  dct:title "Smartcard" .
+
+<http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "201609/13/16G00192";
+  dct:title "DECRETO LEGISLATIVO 26 agosto 2016, n. 179" ;
+  dct:description "Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche" .
+
+<http://www.gazzettaufficiale.it/eli/id/2013/10/01/13G00152/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2013/10/01/13G00152";
+  dct:title "DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 23 agosto 2013, n. 109" ;
+  dct:description "Regolamento recante disposizioni per la prima attuazione dell'articolo 62 del decreto legislativo 7 marzo 2005, n. 82, come modificato dall'articolo 2, comma 1, del decreto-legge 18 ottobre 2012, n. 179, convertito dalla legge 17 dicembre 2012, n. 221, che istituisce l'Anagrafe Nazionale della Popolazione Residente (ANPR)." .
+
+<http://www.gazzettaufficiale.it/eli/id/2015/01/08/15G00002/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2015/01/08/15G00002";
+  dct:title "DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 10 novembre 2014, n. 194" ;
+  dct:description "Regolamento recante modalita' di attuazione e di funzionamento dell'Anagrafe nazionale della popolazione residente (ANPR) e di definizione del piano per il graduale subentro dell'ANPR alle anagrafi della popolazione residente." .
+
+<http://www.gazzettaufficiale.it/eli/id/2015/08/14/15G00140/sg%20>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2015/08/14/15G00140";
+  dct:title "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 17 luglio 2015, n. 126" ;
+  dct:description "Regolamento recante adeguamento del regolamento anagrafico della popolazione residente, approvato con decreto del Presidente della Repubblica 30 maggio 1989, n. 223, alla disciplina istitutiva dell'anagrafe nazionale della popolazione residente." .

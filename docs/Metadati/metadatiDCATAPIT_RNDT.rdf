@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_INSPIREMetadata">
+    <dct:identifier>IR_MDTG</dct:identifier>
+    <dct:title>Inspire Metadata Implementing Rules: Technical Guidelines Based on EN ISO 19115 and EN ISO 19119</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_OGCCatalogueServicesSpecification">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>CSW2_AP_ISO</dct:identifier>
+    <dct:title>OGC Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <dct:description>Attuazione della direttiva 2013/37/UE che modifica la direttiva 2003/98/CE, relativa al riutilizzo dell'informazione del settore pubblico.</dct:description>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2015/07/10/15G00116</dct:identifier>
+    <dct:title>DECRETO LEGISLATIVO 18 maggio 2015, n. 102</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2010/03/09/010G0043/sg">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:description>Attuazione della direttiva 2007/2/CE, che istituisce un'infrastruttura per l'informazione territoriale nella Comunita' europea (INSPIRE).</dct:description>
+    <dct:identifier>2010/03/09/010G0043</dct:identifier>
+    <dct:title>DECRETO LEGISLATIVO 27 gennaio 2010, n. 32</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_ISO19119">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>ISO19119</dct:identifier>
+    <dct:title>ISO 19119:2005</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg">
+    <dct:identifier>201609/13/16G00192</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>DECRETO LEGISLATIVO 26 agosto 2016, n. 179</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <dct:description>Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/eli/reg/2010/1089/oj">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <dct:description>Attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l’interoperabilità dei set di dati territoriali e dei servizi di dati territoriali.</dct:description>
+    <dct:title>Regolamento (UE) n. 1089/2010 della Commissione del 23 novembre 2010 e s.m.i.</dct:title>
+    <dct:identifier>Regulation_1089/2010</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/RNDT_1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:description xml:lang="it">La principale finalità del Repertorio è quella di agevolare la pubblicità dei dati geospaziali di interesse generale, disponibili presso le pubbliche amministrazioni a livello nazionale, regionale e locale. Esso si configura come un catalogo di metadati che supporta due macro-processi fondamentali: (1) la raccolta dei metadati, predisposti delle amministrazioni pubbliche abilitate, relativi ai dati territoriali di interesse generale di cui all’articolo 59, comma 3, del CAD, e ai servizi a essi relativi; (2)la ricerca e la consultazione dei suddetti metadati, accessibili a tutti (amministrazioni, cittadini, professionisti, associazioni ed imprese). Il RNDT è altresì coerente con i Regolamenti INSPIRE relativi ai metadati e ai servizi di rete. Il rispetto delle regole tecniche del RNDT, in aderenza agli standard ISO di riferimento, assicura la contestuale conformità, senza ulteriori adempimenti, al Regolamento (CE) n. 1205/2008. I metadati sono prodotti dalle singole Amministrazioni responsabili dei dati e servizi, che possono effettuare le operazioni di inserimento, aggiornamento e cancellazione dei metadati stessi. L’alimentazione del Repertorio può avvenire tramite diverse modalità: (a) editor disponibile nel portale del RNDT; (b)upload di file XML conformi ai relativi schemi XSD; (c) harvesting di cataloghi conformi alle specifiche sui servizi CSW definite dall’Open Geospatial Consortium (OGC) e alla guida tecnica per l’implementazione dei servizi di ricerca definita nell’ambito di INSPIRE. AgID, attraverso un pannello di controllo, provvede alla convalida dei metadati ricevuti per la loro pubblicazione finale nel Repertorio Nazionale. I controlli di AgID riguardano una verifica di completezza e di coerenza dei file inviati dalle amministrazioni, che restano le uniche responsabili del contenuto pubblicato. Una volta pubblicati nel Repertorio Nazionale i metadati sono disponibili per la consultazione. Il portale può essere consultato tramite interfaccia web in modalità accessibile con semplici maschere alfanumeriche oppure in modalità estesa, con l’utilizzo anche di un navigatore geografico. Il Repertorio, inoltre, può essere anche consultato come servizio di ricerca (discovery service) attraverso client esterni con le operazioni standard (GetCapabilities, GetRecords, GetRecordsById) previste nello Standard CSW (Catalogue Service for the Web) definito da OGC. L’esito della ricerca sarà la visualizzazione dei metadati oggetto delle ricerca medesima nonché, ove disponibile, la possibilità di attivare un collegamento diretto ai dati e/o servizi cui tali metadati si riferiscono, presso l’Amministrazione titolare degli stessi. L’Agenzia per l’Italia Digitale è direttamente investita nella gestione organizzativa e tecnologica del RNDT, in coerenza con le disposizioni che disciplinano il Sistema pubblico di connettività e cooperazione. AgID, quindi, ha realizzato il portale RNDT - interamente con tecnologia open source - attraverso il quale sono fornite le due funzionalità tipiche di un servizio di catalogo: (i) la consultazione dei metadati, accessibile a tutti; (ii) la gestione dei metadati, riservata alle Pubbliche Amministrazioni accreditate. L’applicazione è strutturata in moduli logico-contettuali realizzati su una architettura multi-livello che prevede due stack tecnologici diversi ma interconnessi tra loro mediante il client che ne utilizza di volta in volta le varie funzionalità. Il componente client è costituito da due moduli interoperabili: uno geografico che si occupa di gestire l’accesso alla componente GIS del Repertorio ed uno alfanumerico che accede ai metadati alfanumerici veri e propri. I suddetti moduli sono utilizzati sia per le funzionalità e i servizi disponibili da interfaccia web che per il servizio CSW. E' in corso la reingegnerizzazione del portale e dell’applicazione RNDT inserita nella gara per l’affidamento della progettazione, realizzazione, fornitura, manutenzione e gestione delle infrastrutture. l RNDT è fruibile attraverso il portale web disponibile all’indirizzo http://www.rndt.gov.it (nei prossimi mesi sarà anche attivato il dominio geodati.gov.it). La ricerca e la consultazione delle informazioni (metadati) riguardanti i dati territoriali e i relativi servizi, aperte a tutti, possono essere effettuate o tramite le apposite funzionalità rese disponibili da interfaccia web o tramite client esterni per il servizio CSW. La gestione dei metadati può essere effettuata solo dalle pubbliche amministrazioni accreditate attraverso un’area riservata del portale. Benefici. (1) Certificazione dell’esistenza dei dati territoriali, e relativi servizi, che vengono documentati nel Repertorio; (2) Pubblicità dei dati territoriali di interesse generale disponibili presso le Pubbliche Amministrazioni; (3) Maggiore accessibilità e disponibilità generalizzata del patrimonio informativo relativo ai dati e servizi territoriali prodotti e/o gestiti dalle Pubbliche Amministrazioni; (4) Facilitazione nella ricerca dei dati territoriali esistenti e supporto nelle decisioni riguardanti l’utilizzo di tali dati. Come indicato al punto (15) del preambolo della Direttiva 2007/2/CE (INSPIRE), il tempo e le risorse necessarie per la ricerca dei dati rappresentano un ostacolo decisivo allo sfruttamento ottimale dei dati disponibili; (5) Facilitazione nella realizzazione di servizi che richiedono l’integrazione di dati di competenza di più amministrazioni e agevolazione della cooperazione nel programmare l’acquisizione di nuovi dati, razionalizzandone i costi; (6) alorizzazione e incentivazione del riuso dei dati pubblici in quanto il RNDT rende ufficialmente noto, a livello nazionale, quali dati territoriali sono disponibili, presso quale amministrazione, quali caratteristiche tecniche presentano e quali modalità di accesso sono possibili, compresi eventuali vincoli, restrizioni e costi; (7) Attivazione di processi di pianificazione e di coordinamento tra le amministrazioni in relazione alla possibilità di verificare attraverso il RNDT l’eventuale esistenza di esigenze comuni e la conseguente opportunità di attivare specifici accordi di collaborazione tra amministrazioni interessate alla stessa tipologia di dati, con conseguente riduzione dei costi complessivi e ottimizzazione delle risorse. Ulteriori canali di contatto per l'RNDT sono: (i) form per segnalazioni e richieste disponibile sul portale; (ii) contatto skype dedicato rndt.help (solo per supporto alle PA); (iii) social media dedicati.</dct:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dct:identifier>agid_RDNT:D.1</dct:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_OGCCatalogueServicesSpecification"/>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_RNDT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2010/03/09/010G0043/sg"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg"/>
+    <dcat:landingPage rdf:resource="http://rndt.gov.it"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">2017-06-07</dct:modified>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_ISOTS19139"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2012/02/27/12A01801/sg"/>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_INSPIREMetadata"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <skos:altLabel>RNDT</skos:altLabel>
+    <dct:title>Base Dati del Repertorio Nazionale dei Dati Territoriali</dct:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_ISO19119"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_ISO19115"/>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"/>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/reg/2009/976/oj"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_INSPIRETechnicalGuidance"/>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitDataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+    <dct:identifier>agid</dct:identifier>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitAgent"/>
+    <foaf:name>Agenzia per l'Italia Digitale</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/eli/reg/2009/976/oj">
+    <dct:description>Attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda i servizi di rete.</dct:description>
+    <dct:title>Regolamento (CE) n. 976/2009 della Commissione del 19 ottobre 2009 e s.m.i.</dct:title>
+    <dct:identifier>Regulation_976/2009</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/eli/reg/2008/1205/oj">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <dct:identifier>Regulation_1205/2008</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:description>Attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda i metadati.</dct:description>
+    <dct:title>Regolamento (CE) n. 1205/2008 della Commissione del 3 dicembre 2008</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2012/02/27/12A01801/sg">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>DECRETO 10 novembre 2011</dct:title>
+    <dct:identifier>2012/02/27/12A01801</dct:identifier>
+    <dct:description>Regole tecniche per la definizione del contenuto del Repertorio nazionale dei dati territoriali, nonche' delle modalita' di prima costituzione e di aggiornamento dello stesso. (12A01801).</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg">
+    <dct:title>TESTO COORDINATO DEL DECRETO-LEGGE 18 ottobre 2012, n. 179</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <dct:description>Testo del decreto-legge 18 ottobre 2012, n. 179 (pubblicato nel supplemento ordinario n. 194/L alla Gazzetta Ufficiale 19 ottobre 2012, n. 245), coordinato con la legge di conversione 17 dicembre 2012, n. 221 (in questo stesso supplemento ordinario alla pag. 1), recante: «Ulteriori misure urgenti per la crescita del Paese.».</dct:description>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2012/12/18/12A13277</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_INSPIRETechnicalGuidance">
+    <dct:identifier>TG_DiscoveryS</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <dct:title>INSPIRE Technical Guidance for the implementation of INSPIRE Discovery Services</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_ISOTS19139">
+    <dct:identifier>ISOTS19139</dct:identifier>
+    <dct:title>ISO TS 19139:2007</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_RNDT">
+    <vcard:hasEmail rdf:resource="mailto:info@rndt.gov.it"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitOrganization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:fn>Agenzia per l’Italia Digitale - Area Architetture, Standard e Infrastrutture - Servizio Banche Dati e Open Data</vcard:fn>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RNDT_ISO19115">
+    <dct:title>ISO 19115:2003</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapitStandard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>ISO19115</dct:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dati.gov.it/resource/Dataset/BDIN/servizigov_14>
+  a dcatapit:Dataset, dcat:Dataset ;
+  dct:title "Base dati del catalogo nazionale dei servizi pubblici a cittadini e imprese - servizi.gov.it" ;
+  dct:description """La base di dati rappresenta il catalogo nazionale dei servizi pubblici a cittadini e imprese. I servizi possono essere sia online che offline. A iniziare, il catalogo conterrà servizi utili per anche piattaforme abilitanti come SPID e PagoPA. Il catalogo offre la possibilità ai cittadini e alle imprese di ricercare in maniera facilitata le principali informazioni (e.g., amministrazione titolare, canali di erogazione, copertura temporale, costi, punto di contatto, ecc.) sui servizi pubblici. Il catalogo è basato su un profilo di interoperabilità italiano CPSV-AP_IT, conforme al profilo europeo CPSV-AP nato a partire dal cosiddetto Core Public Service Vocabulary sviluppato nel corso del 2013, nel contesto del programma europeo ISA. Il catalogo italiano quindi può diventare il riferimento italiano per l’Europa in merito alla costituzione dell’analogo catalogo europeo. I benefici possono essere così riassunti: (i) un punto di accesso ufficiale per tutti i metadati che descrivono i servizi pubblici ai cittadini e alle imprese erogati dalle amministrazioni o per conto delle amministrazioni pubbliche; (ii) standardizzazione della metadatazione sui servizi pubblici ai cittadini e imprese, anche con analoghe a livello europeo, grazie all’uso di uno standard europeo CPSV-AP recepito in Italia con il profilo CPS-AP_IT; (iii) facilità nella scoperta dei servizi pubblici per i cittadini e imprese; (iv) riutilizzo di tutti i metadati grazie alla loro disponibilità secondo il paradigma dei dati aperti; (v) possibilità di abilitare azioni di monitoraggio sui servizi pubblici ai cittadini e imprese; (vi) possibilità di monitorare la presenza di servizi a la loro conformità a determianti standard."""@it ;
+  dct:identifier "agid_servizigov:D.14" ;
+  dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
+  dcat:contactPoint <http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_servizigov> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/UNKNOWN> ;
+  dct:modified "2017-08-01"^^xsd:date ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <http://publications.europa.eu/resource/authority/data-theme/ECON> , <http://publications.europa.eu/resource/authority/data-theme/EDUC> , <http://publications.europa.eu/resource/authority/data-theme/ENER> , <http://publications.europa.eu/resource/authority/data-theme/ENVI> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <http://publications.europa.eu/resource/authority/data-theme/INTR> , <http://publications.europa.eu/resource/authority/data-theme/JUST> , <http://publications.europa.eu/resource/authority/data-theme/REGI> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <http://publications.europa.eu/resource/authority/data-theme/TECH> , <http://publications.europa.eu/resource/authority/data-theme/TRAN> ;
+  dct:conformsTo <http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg> , <http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg> , <http://dati.gov.it/onto/cpsvapit> .
+
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "agid" ;
+    foaf:name "Agenzia per l'Italia Digitale" .
+
+<http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_servizigov>
+  a vcard:Kind , vcard:Organization , dcatapit:Organization ;
+  vcard:fn "Area Architetture, Standard e Infrastrutture - Servizio Banche Dati e Open Data e Servizio Architetture di progetto" ;
+  vcard:hasEmail <mailto:info@dati.gov.it> .
+
+<http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2005/05/16/005G0104" ;
+  dct:title "DECRETO LEGISLATIVO 7 marzo 2005, n. 82" ;
+  dct:description "Codice dell'amministrazione digitale" .
+
+<http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2012/12/18/12A13277" ;
+  dct:title "TESTO COORDINATO DEL DECRETO-LEGGE 18 ottobre 2012, n. 179" ;
+  dct:description "Testo del decreto-legge 18 ottobre 2012, n. 179 (pubblicato nel supplemento ordinario n. 194/L alla Gazzetta Ufficiale 19 ottobre 2012, n. 245), coordinato con la legge di conversione 17 dicembre 2012, n. 221 (in questo stesso supplemento ordinario alla pag. 1), recante: Ulteriori misure urgenti per la crescita del Paese." .
+
+<http://dati.gov.it/onto/cpsvapit>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "http://dati.gov.it/onto/cpsvapit/1.1" ;
+  dct:title "CPSV-AP_IT: Il profilo di interoperabilità italiano per la descrizione di servizi pubblici ai cittadini e alle imprese" ;
+  dct:description "Ontologia del profilo italiano per la descrizione dei servizi pubblici. Per servizio pubblico si intende qualsiasi atto obbligatorio o discrezionale espletato da una pubblica amministrazione (o per conto di una pubblica amministrazione) nei confronti di cittadini, imprese/professionisti." .

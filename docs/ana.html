@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>7. Anagrafe nazionale assistiti &mdash; #Datipubblici - Schede descrittive basi dati di interesse nazionale 1.0 documentazione</title>
+               
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />   
+    <link rel="index" title="Indice" href="genindex.html" />
+    <link rel="search" title="Cerca" href="search.html" />
+    <link rel="top" title="#Datipubblici - Schede descrittive basi dati di interesse nazionale 1.0 documentazione" href="index.html" />
+    <link rel="next" title="8. Anagrafe aziende agricole" href="aziendeagricole.html" />
+    <link rel="prev" title="6. Anagrafica dell’immigrazione" href="arcimmigrazioneasilo.html" />  
+    <script src="_static/js/modernizr.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+     
+    <div class="wy-grid-for-nav">
+
+        
+        <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+            <div class="wy-side-scroll">
+                <div class="wy-side-nav-search">
+                    
+
+                    <div class="branding clearfix">
+                        <div class="branding--logo">
+                            <a href="https://docs.developers.italia.it">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+                              <g fill="none" fill-rule="evenodd">
+                                <path d="M0 0h160v160H0z"/>
+                                <path fill="#fff" d="M58.28 131.956V49.918h21.5v82.184h-21.5v-.146zm84.435-63.353h-19.65v33.72c0 3.358.143 5.547.285 7.007.143 1.314.712 2.482 1.71 3.504.996 1.02 2.562 1.46 4.698 1.46l12.245-.293.997 17.52c-7.12 1.606-12.673 2.48-16.375 2.48-9.682 0-16.232-2.19-19.65-6.713-3.56-4.38-5.267-12.554-5.267-24.524V27h21.5v22.772h19.65v18.83h-.143zM25.957 74.88c-3.702 0-6.834-1.314-9.255-3.94C14.282 68.31 13 65.1 13 61.303c0-3.795 1.28-7.007 3.56-9.634 2.42-2.63 5.553-3.798 9.255-3.798 3.702 0 6.835 1.314 9.255 3.942 2.42 2.627 3.56 5.84 3.56 9.78 0 3.942-1.14 7.007-3.56 9.635-2.278 2.335-5.268 3.65-9.113 3.65z"/>
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                        <div class="branding--content">
+                            <h2 class="branding--title">
+                                <span class="branding--title--root">/ <a href="https://developers.italia.it">developers</a></span>
+                                <span class="branding--title--branch">/ <a href="https://docs.developers.italia.it">docs</a></span>
+                            </h2>
+                        </div>
+                        <h3 class="branding--tagline">La community italiana degli sviluppatori di servizi pubblici</h3>
+                    </div>
+
+            
+            <a href="index.html">
+            
+            <img src="_static/agid-logo.svg" class="logo" />
+            </a>
+            
+            
+            <h1 class="project-title"><a href="index.html" class="icon icon-home"> #Datipubblici - Schede descrittive basi dati di interesse nazionale </a></h1>
+            
+
+
+                     
+                    
+                    <div class="version">version 1.0</div>
+                      
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div> 
+                </div>
+
+                <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                          <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="contesto.html">Contesto e scopo del documento</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rndt.html">1. Repertorio Nazionale dei Dati Territoriali</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anpr.html">2. Anagrafe nazionale della popolazione residente</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bdncp.html">3. Banca dati nazionale dei contratti pubblici</a></li>
+<li class="toctree-l1"><a class="reference internal" href="casellario.html">4. Casellario giudiziale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="regimprese.html">5. Registro Imprese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arcimmigrazioneasilo.html">6. Anagrafica dell&#8217;immigrazione</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7. Anagrafe nazionale assistiti</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#denominazione-ufficiale-titolo">Denominazione ufficiale (titolo)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#acronimo">Acronimo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#descrizione">Descrizione</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amministrazione-titolare">Amministrazione titolare</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#punto-di-contatto">Punto di contatto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#frequenza-di-aggiornamento">Frequenza di aggiornamento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#norme-di-riferimento">Norme di riferimento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conformita-a-standard">Conformità a standard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#home-page-o-pagina-web-di-riferimento">Home page o pagina web di riferimento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#benefici">Benefici</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modalita-di-fruizione">Modalità di fruizione</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#canali-per-il-supporto-ad-amministrazioni-e-altri-utenti">Canali per il supporto ad amministrazioni e altri utenti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#open-data">Open Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tema-di-riferimento-per-i-dati">Tema di riferimento per i dati</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="aziendeagricole.html">8. Anagrafe aziende agricole</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anncsu.html">9. Anagrafe nazionale numeri civici e strade urbane</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ipa.html">10. Indice della Pubblica Amministrazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="inipec.html">11. Indice nazionale indirizzi PEC professionisti e imprese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pra.html">12. Pubblico Registro Automobilistico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datigov.html">13. Catalogo dei dati delle Pubbliche Amministrazioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servizigov.html">14. Catalogo dei servizi pubblici</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sinfi.html">15. Sistema informativo nazionale federato delle infrastrutture</a></li>
+</ul>
+  
+                </div>
+            </div>
+        </nav>
+
+        <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+            
+            <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+                
+                <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+                <a href="index.html">#Datipubblici - Schede descrittive basi dati di interesse nazionale</a> 
+            </nav>
+
+
+            
+            <div class="wy-nav-content">
+                <div class="rst-content">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>7. Anagrafe nazionale assistiti</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/ana.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+                    <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+                        <div itemprop="articleBody">
+                            
+  <div class="section" id="anagrafe-nazionale-assistiti">
+<h1>7. Anagrafe nazionale assistiti<a class="headerlink" href="#anagrafe-nazionale-assistiti" title="Link a questa intestazione">¶</a></h1>
+<p>Base dati di interesse nazionale ai sensi dell&#8217;articolo 60 comma 3 del CAD.
+E&#8217; possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in <a class="reference external" href="Metadati/metadatiDCATAPIT_ANA.ttl">RDF/Turtle</a>, <a class="reference external" href="Metadati/metadatiDCATAPIT_ANA.rdf">RDF/XML</a> e <a class="reference external" href="Metadati/metadatiDCATAPIT_ANA.jsonld">JSON-LD</a> (Essendo questa una fotografia di quanto disponibile alla data di pubblicazione delle presenti schede, la data di ultimo aggiornamento indicata nei file è quella della pubblicazione stessa delle schede).</p>
+<div class="section" id="denominazione-ufficiale-titolo">
+<h2>Denominazione ufficiale (titolo)<a class="headerlink" href="#denominazione-ufficiale-titolo" title="Link a questa intestazione">¶</a></h2>
+<p>Anagrafe nazionale degli assistiti</p>
+</div>
+<div class="section" id="acronimo">
+<h2>Acronimo<a class="headerlink" href="#acronimo" title="Link a questa intestazione">¶</a></h2>
+<p>ANA</p>
+</div>
+<div class="section" id="descrizione">
+<h2>Descrizione<a class="headerlink" href="#descrizione" title="Link a questa intestazione">¶</a></h2>
+<p>L’Anagrafe nazionale degli assistititi (ANA) è stata istituita dall’articolo 62-ter del CAD, nell&#8217;ambito del sistema informativo realizzato dal Ministero dell&#8217;economia e delle finanze in attuazione di quanto disposto dall&#8217;articolo 50 del decreto-legge 30 settembre 2003, n. 269, convertito, con modificazioni, dalla legge 24 novembre 2003, n. 326 (Sistema Tessera Sanitaria). L&#8217;ANA, realizzata dal Ministero dell&#8217;economia e delle finanze, in accordo con il Ministero della salute in relazione alle specifiche esigenze di monitoraggio dei livelli essenziali di assistenza (LEA), subentra, per tutte le finalità previste dalla normativa vigente, alle anagrafi e agli elenchi degli assistiti tenuti dalle singole aziende sanitarie locali (ASL) e dai Servizi di assistenza sanitaria ai naviganti (SASN), i quali mantengono la titolarità dei dati di propria competenza e ne assicurano l&#8217;aggiornamento.</p>
+<p>A tal fine, l&#8217;ANA assicura alle ASL/SASN la disponibilità dei dati e degli strumenti per lo svolgimento delle funzioni di propria competenza e garantisce l&#8217;accesso ai dati in essa contenuti da parte delle pubbliche amministrazioni per le relative finalità istituzionali. I principali processi supportati sono:</p>
+<blockquote>
+<div><ul class="simple">
+<li>la gestione dei dati anagrafici ed amministrativi degli assistiti del Servizio Sanitario Nazionale (SSN), quali l’iscrizione al SSN e i trasferimenti di residenza/assistenza, la scelta e revoca del medico, la gestione delle esenzioni, etc., nonché degli stranieri cui è erogata l’assistenza;</li>
+<li>l’allineamento dei dati identificativi dell’assistito e l’identificazione certa degli assistiti, nell’ambito del Fascicolo Sanitario Elettronico;</li>
+<li>la messa a disposizione dei dati anagrafici ed amministrativi degli assistiti ai sistemi di governance del SSN, sia a livello nazionale (Nuovo Sistema Informativo Sanitario del Ministero della salute) sia a livello regionale.</li>
+</ul>
+</div></blockquote>
+<p>L’ANPR rende disponibili all’ANA i necessari dati e servizi secondo le modalità di interoperabilità tra le pubbliche amministrazioni, così come previsto dal CAD. L’ANA coopera, attraverso appositi servizi di cooperazione, con le banche dati degli assistiti già istituite a livello regionale per le stesse finalità perseguite dall&#8217;ANA, fermo restando che anche per tali banche dati l’ANA costituisce l’unica anagrafe di riferimento degli assistiti.</p>
+<p>Per dare attuazione all’articolo 62-ter del CAD è stato predisposto lo schema di decreto del Presidente del Consiglio dei Ministri, di natura regolamentare, recante “Modalità di attuazione e di funzionamento dell’Anagrafe Nazionale degli Assistiti (ANA) e definizione del piano per il graduale subentro dell’ANA alle anagrafi degli assistiti delle aziende sanitarie locali e del Ministero della salute”. Lo stesso è stato sottoposto al parere dell’Autorità Garante per la protezione dei dati personali e sarà adottato dopo aver completato l’iter previsto (Intesa con la Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano e parere del Consiglio di Stato).</p>
+</div>
+<div class="section" id="amministrazione-titolare">
+<h2>Amministrazione titolare<a class="headerlink" href="#amministrazione-titolare" title="Link a questa intestazione">¶</a></h2>
+<p>ASL - Ministero salute - Ministero Economia e Finanze (MEF)</p>
+</div>
+<div class="section" id="punto-di-contatto">
+<h2>Punto di contatto<a class="headerlink" href="#punto-di-contatto" title="Link a questa intestazione">¶</a></h2>
+<p>Sarà definito quando ANA sarà operativo.</p>
+</div>
+<div class="section" id="frequenza-di-aggiornamento">
+<h2>Frequenza di aggiornamento<a class="headerlink" href="#frequenza-di-aggiornamento" title="Link a questa intestazione">¶</a></h2>
+<p>In continuo aggiornamento. Secondo le specifiche DCAT-AP_IT: <a class="reference external" href="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT">http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT</a></p>
+</div>
+<div class="section" id="norme-di-riferimento">
+<h2>Norme di riferimento<a class="headerlink" href="#norme-di-riferimento" title="Link a questa intestazione">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Legge 23 dicembre 2000, n. 388</strong>, recante “Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato” (art. 87);</li>
+<li><strong>Decreto-legge 30 settembre 2003, n. 269</strong>, convertito, con modificazioni, dalla legge 24 novembre 2003, n. 326, (art. 50) e i relativi decreti attuativi;</li>
+<li><strong>Decreto legislativo 7 marzo 2005, n. 82 e s.m.i.</strong>, recante “Codice dell’amministrazione digitale” o “CAD” (artt. 59 e 60); - Decreto del Presidente del Consiglio dei Ministri 29 settembre 2015 , n. 178, recante “Regolamento in materia di fascicolo sanitario elettronico”;</li>
+<li><strong>Decreto del Ministro della salute 7 dicembre 2016, n. 262</strong>, recante “Regolamento recante procedure per l&#8217;interconnessione a livello nazionale dei sistemi informativi su base individuale del Servizio sanitario nazionale, anche quando gestiti da diverse amministrazioni dello Stato”</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="conformita-a-standard">
+<h2>Conformità a standard<a class="headerlink" href="#conformita-a-standard" title="Link a questa intestazione">¶</a></h2>
+<p>I servizi erogati da ANA sono in modalità web service ovvero attraverso una web application fruibile dal sito internet della ANA In particolare le richieste di servizio sono elaborate in formato XML o altri formati aperti e sono suddivisi / raggruppati per tipologia di fruitore:</p>
+<blockquote>
+<div><ul class="simple">
+<li>ASL;</li>
+<li>Cittadini;</li>
+<li>Medico di base;</li>
+<li>Ministero della Salute;</li>
+<li>Pubbliche Amministrazioni;</li>
+<li>Regioni</li>
+</ul>
+</div></blockquote>
+<p>L’infrastruttura di ANA è realizzata nell’ambito del sistema informativo del Ministero dell&#8217;economia e delle finanze in attuazione di quanto disposto dall&#8217;articolo 50 del decreto-legge 30 settembre 2003, n. 269, convertito, con modificazioni, dalla legge 24 novembre 2003, n. 326 (<em>Sistema-TS</em>).</p>
+<p>Le caratteristiche dell’infrastruttura e le misure adottate per garantire riservatezza, integrità e disponibilità dei dati trattati, nonché la sicurezza dell’accesso ai servizi, il tracciamento delle operazioni effettuate, sono in conformità agli articoli 64, comma 2 e 65, comma 1, lettera c-bis), del decreto legislativo 7 marzo 2005, n. 82 e successive modificazioni.</p>
+<p>I sistemi e servizi di backup per il salvataggio dei dati e delle applicazioni e di Disaster Recovery, vengono predisposti in conformità all’articolo 34, comma 1, lettera f), del decreto legislativo 30 giugno 2003, n. 196, e ai punti 18 e 23 dell’allegato disciplinare tecnico (Allegato B al decreto legislativo 30 giugno 2003, n. 196). Il piano di continuità operativa e il relativo piano di disaster recovery, già presente per il Sistema TS, è aggiornato a fronte dell’istituzione dell’ANA.</p>
+</div>
+<div class="section" id="home-page-o-pagina-web-di-riferimento">
+<h2>Home page o pagina web di riferimento<a class="headerlink" href="#home-page-o-pagina-web-di-riferimento" title="Link a questa intestazione">¶</a></h2>
+<p>Sarà definito quando ANA sarà operativo</p>
+</div>
+<div class="section" id="benefici">
+<h2>Benefici<a class="headerlink" href="#benefici" title="Link a questa intestazione">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Unificazione in un’unica banca dati dell’anagrafe degli assistiti del SSN, con i conseguenti vantaggi in termini di incremento dell’efficacia e dell’efficienza dei processi di automazione amministrativa, nonché riduzione di costi;</li>
+<li>Miglioramento dei servizi ai cittadini, per i quali vengono ridotti gli oneri di comunicazione verso la PA (es. in caso di trasferimento di residenza le informazioni vengono automaticamente comunicate da ANPR ad ANA) e che hanno accesso diretto alle proprie informazioni anche in modalità telematica;</li>
+<li>Maggiore precisione e accuratezza dei dati relativi agli assistiti del SSN, nonché maggiore accessibilità e disponibilità generalizzata di tale patrimonio informativo, reso disponibile in modo organico e sincronizzato a tutte le PA aventi titolo per accedervi, sia per finalità gestionali (inclusa identificazione assistito nel FSE) sia per finalità di governance.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="modalita-di-fruizione">
+<h2>Modalità di fruizione<a class="headerlink" href="#modalita-di-fruizione" title="Link a questa intestazione">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>il Ministero della salute, le regioni e le province autonome, nonché le ASL e i Medici di Medicina Generale o un Pediatra di Libera Scelta (MMG/PLS), hanno accesso, per quanto di competenza, ai dati del sistema ANA, mediante web services o tramite sito web dell’ANA;</li>
+<li>L’assistito registrato nell&#8217;ANA ha accesso ai propri dati presso la ASL di competenza, ovvero tramite sito web dell&#8217;ANA;</li>
+<li>le altre pubbliche amministrazioni aventi titolo hanno accesso, esclusivamente per l’espletamento dei propri compiti istituzionali, ai dati del sistema ANA, mediante web services o tramite sito web dell’ANA.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="canali-per-il-supporto-ad-amministrazioni-e-altri-utenti">
+<h2>Canali per il supporto ad amministrazioni e altri utenti<a class="headerlink" href="#canali-per-il-supporto-ad-amministrazioni-e-altri-utenti" title="Link a questa intestazione">¶</a></h2>
+<p>Il supporto alle PA e agli utenti è garantito attraverso vari strumenti:</p>
+<blockquote>
+<div><ul class="simple">
+<li>indirizzo mail dedicato;</li>
+<li>form per segnalazioni e richieste disponibile sul sito web;</li>
+<li>Contact center multicanale (1° livello), a valle del quale operano i gruppi specialistici (2° livello).</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="open-data">
+<h2>Open Data<a class="headerlink" href="#open-data" title="Link a questa intestazione">¶</a></h2>
+<p>La base di dati per sua natura contiene dati per i quali si applica la normativa sulla protezione dei dati personali. Non esistono pertanto open data di questa base di dati.</p>
+</div>
+<div class="section" id="tema-di-riferimento-per-i-dati">
+<h2>Tema di riferimento per i dati<a class="headerlink" href="#tema-di-riferimento-per-i-dati" title="Link a questa intestazione">¶</a></h2>
+<p>Salute. <strong>URI da utilizzare</strong>: <a class="reference external" href="http://publications.europa.eu/resource/authority/data-theme/HEAL">http://publications.europa.eu/resource/authority/data-theme/HEAL</a></p>
+</div>
+</div>
+
+
+                        </div>
+                        <div class="articleComments">
+                            
+                        </div>
+                    </div>
+                    <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="aziendeagricole.html" class="btn float-right" title="8. Anagrafe aziende agricole" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="arcimmigrazioneasilo.html" class="btn" title="6. Anagrafica dell’immigrazione" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+		<a href="http://www.agid.gov.it">Agenzia per l'Italia Digitale</a> - <a href="https://creativecommons.org/licenses/by/4.0/">Licence: CC-BY 4.0</a> -
+      Ultimo aggiornamento 31/07/2017.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using the official <a href="https://github.com/italia/sphinx_italia_theme">Italia theme</a> based on the <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    
+ 
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT: './',
+            VERSION: '1.0',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE: true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>   
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+      
+    <script type="text/javascript">
+        jQuery(function() {
+            SphinxRtdTheme.StickyNav.enable();
+        });
+    </script>
+     
+
+</body>
+
+</html>

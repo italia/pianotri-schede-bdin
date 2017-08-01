@@ -1,0 +1,58 @@
+10. Base dati catastale
+=======================
+
+Base dati equiparabile a una di interesse nazionale.
+
+.. warning::
+  **Alla data di fine luglio, l'amministrazione non ha ancora fatto pervenire tutti i metadati richiesti. La scheda risulta pertanto incompleta.**
+
+Denominazione ufficiale (titolo)
+--------------------------------
+Anagrafe nazionale dei numeri civici e delle strade urbane
+
+
+Descrizione
+-----------
+
+Amministrazione titolare
+------------------------
+Agenzia delle Entrate
+
+Punto di contatto
+-----------------
+
+
+Frequenza di aggiornamento
+--------------------------
+In continuo aggiornamento. Secondo le specifiche DCAT-AP_IT: http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT
+
+Norme di riferimento
+--------------------
+
+Conformità a standard
+---------------------
+
+Home page o pagina web di riferimento
+-------------------------------------
+
+Data di ultimo aggiornamento
+----------------------------
+
+Benefici
+--------
+
+Modalità di fruizione
+---------------------
+
+Canali per il supporto ad amministrazioni e altri utenti
+--------------------------------------------------------
+
+
+Open Data
+---------
+
+Tema di riferimento per i dati
+------------------------------
+Regioni e città. **URI da utilizzare**: http://publications.europa.eu/resource/authority/data-theme/REGI
+
+Economia e finanze. **URI da utilizzare**: http://publications.europa.eu/resource/authority/data-theme/ECON

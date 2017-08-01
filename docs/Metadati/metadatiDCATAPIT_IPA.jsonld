@@ -1,0 +1,231 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://dati.gov.it/resource/Standard/Standard_IPA_OSSTMM",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:identifier": "OSSTMM",
+      "dcterms:title": "Open Source Security Testing Methodology Manual (OSSTMM)"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Distribution/BDIN/RDFTurle_IPA",
+      "@type": [
+        "dcatapit:Distribution",
+        "dcat:Distribution"
+      ],
+      "dcat:accessURL": {
+        "@id": "http://spcdata.digitpa.gov.it/dataIPA.html"
+      },
+      "dcat:downloadURL": {
+        "@id": "http://spcdata.digitpa.gov.it/data/ipa.ttl"
+      },
+      "dcterms:description": "Questa è la distribuzione Open Data RDF/turtle dell'IPA",
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      },
+      "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by/3.0/it/"
+      },
+      "dcterms:title": "Distribuzione RDF/turtle dell'IPA"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Standard/Standard_IPA_owasp",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:identifier": "owasp",
+      "dcterms:title": "Open Web Application Security Project (OWASP)"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_IPA",
+      "@type": [
+        "vcard:Kind",
+        "dcatapit:Organization",
+        "vcard:Organization"
+      ],
+      "vcard:fn": "Agenzia per l’Italia Digitale - Gestione Servizi Infrastrutturali.",
+      "vcard:hasEmail": {
+        "@id": "mailto:info@agid.gov.it"
+      }
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2014/03/12/14A02099/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Regole tecniche per il protocollo informatico ai sensi degli articoli 40-bis, 41, 47, 57-bis e 71, del Codice dell'amministrazione digitale di cui al decreto legislativo n. 82 del 2005.",
+      "dcterms:identifier": "2014/03/12/14A02099",
+      "dcterms:title": "DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 3 dicembre 2013"
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
+      "@type": [
+        "dcatapit:Agent",
+        "foaf:Agent"
+      ],
+      "dcterms:identifier": "agid",
+      "foaf:name": "Agenzia per l'Italia Digitale"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche",
+      "dcterms:identifier": "201609/13/16G00192",
+      "dcterms:title": "DECRETO LEGISLATIVO 26 agosto 2016, n. 179"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/IPA_10",
+      "@type": [
+        "dcat:Dataset",
+        "dcatapit:Dataset"
+      ],
+      "dcat:contactPoint": {
+        "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_IPA"
+      },
+      "dcat:distribution": [
+        {
+          "@id": "http://dati.gov.it/resource/Distribution/BDIN/CSV_IPA"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/Distribution/BDIN/RDFTurtle_IPA"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/Distribution/BDIN/RDFXML_IPA"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/Distribution/BDIN/RDFNtriples_IPA"
+        }
+      ],
+      "dcat:landingPage": {
+        "@id": "http://indicepa.gov.it"
+      },
+      "dcat:theme": {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+      },
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://dati.gov.it/resource/Standard/Standard_IPA_owasp"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/Standard/Standard_IPA_OSSTMM"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2014/03/12/14A02099/sg"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2013/05/22/13G00097/sg"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "L’Indice delle Pubbliche Amministrazioni (IPA) è una base dati pubblica alimentata dalle informazioni fornite, a norma di legge (CAD), dalle Pubbliche Amministrazioni e dai Gestori di Pubblici Servizi e finalizzata a rendere noti: (i) l’indirizzo di PEC dei Gestori di Pubblici Servizi e delle Aree Organizzative Omogenee (uffici di protocollo) delle Pubbliche Amministrazioni, per favorire lo scambio di documenti informatici attraverso canali ufficiali; (ii) il codice univoco che identifica gli uffici delle Pubbliche Amministrazioni destinatari di fatture, necessario, quindi, per il corretto recapito delle fatture elettroniche. L’IPA rappresenta pertanto un censimento delle Pubbliche Amministrazioni e dei Gestori di Pubblici Servizi, accessibile a chiunque, contenente oltre ai dati sopra citati, obbligatori per legge, anche informazioni sintetiche sull’ente (indirizzo, codice fiscale, legale rappresentante, sito web, canali social, classificazione...), sulla sua struttura organizzativa (organigramma, uffici, responsabili, indirizzi, telefono, email…), sui servizi erogati (descrizione, canale web di erogazione, e-mail di contatto...). Le informazioni dell’IPA sono utilizzate ad esempio come riferimento dal Ministero dell’Economia e delle Finanze per l’individuazione delle Pubbliche Amministrazioni tenute all’applicazione del meccanismo della scissione dei pagamenti di cui all’articolo 17-ter del d.P.R. 26 ottobre 1972, n. 633 (Split-payment) e per l’alimentazione della Banca dati delle Amministrazioni pubbliche (BDAP) per il controllo e monitoraggio degli andamenti della finanza pubblica."
+      },
+      "dcterms:identifier": "agid_IPA:D.10",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-08-01"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      },
+      "dcterms:title": "Indice degli indirizzi delle pubbliche amministrazioni e dei gestori di pubblici servizi",
+      "skos:altLabel": "IPA"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2013/05/22/13G00097/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Regolamento in materia di emissione, trasmissione e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi dell'articolo 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244.",
+      "dcterms:identifier": "2013/05/22/13G0009",
+      "dcterms:title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 3 aprile 2013, n. 55"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Distribution/BDIN/RDFXML_IPA",
+      "@type": [
+        "dcat:Distribution",
+        "dcatapit:Distribution"
+      ],
+      "dcat:accessURL": {
+        "@id": "http://spcdata.digitpa.gov.it/dataIPA.html"
+      },
+      "dcat:downloadURL": {
+        "@id": "http://spcdata.digitpa.gov.it/data/ipa.rdf"
+      },
+      "dcterms:description": "Questa è la distribuzione Open Data RDF/XML dell'IPA",
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+      },
+      "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by/3.0/it/"
+      },
+      "dcterms:title": "Distribuzione RDF/XML dell'IPA"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Distribution/BDIN/CSV_IPA",
+      "@type": [
+        "dcatapit:Distribution",
+        "dcat:Distribution"
+      ],
+      "dcat:accessURL": {
+        "@id": "http://www.indicepa.gov.it/documentale/n-opendata.php"
+      },
+      "dcterms:description": "Questa è la distribuzione Open Data CSV dell'IPA",
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by/3.0/it/"
+      },
+      "dcterms:title": "Distribuzione IPA CSV"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Distribution/BDIN/RDFNtriples_IPA",
+      "@type": [
+        "dcatapit:Distribution",
+        "dcat:Distribution"
+      ],
+      "dcat:accessURL": {
+        "@id": "http://spcdata.digitpa.gov.it/dataIPA.html"
+      },
+      "dcat:downloadURL": {
+        "@id": "http://spcdata.digitpa.gov.it/data/ipa.nt"
+      },
+      "dcterms:description": "Questa è la distribuzione Open Data RDF/Ntriples dell'IPA",
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"
+      },
+      "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by/3.0/it/"
+      },
+      "dcterms:title": "Distribuzione RDF/NTriples dell'IPA"
+    }
+  ]
+}

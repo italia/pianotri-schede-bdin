@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANPR">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <vcard:fn>Team per la Trasformazione Digitale</vcard:fn>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <vcard:hasEmail rdf:resource="mailto:mirko@teamdigitale.governo.it"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it">
+    <foaf:name>Ministero dell'Interno</foaf:name>
+    <dct:identifier>m_it</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_X509">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>X509</dct:identifier>
+    <dct:title>X.509</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/ANPR_2">
+    <dct:identifier>m_it_ANPR:D.2</dct:identifier>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANPR"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_smartcard"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2015/01/08/15G00002/sg"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SOAP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://anpr.interno.it"/>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSsecurity"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2015/08/14/15G00140/sg%20"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-01</dct:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:title>Anagrafe Nazionale della Popolazione Residente</dct:title>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2013/10/01/13G00152/sg"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSDL"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SAML"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_X509"/>
+    <skos:altLabel>ANPR</skos:altLabel>
+    <dct:description xml:lang="it">Base dati centrale per la popolazione residente italiana e degli iscritti AIRE. I principali benefici dell'ANPR sono quelli di offrire una base dati autoritativa per la popolazione residente. La base di dati può essere fruita secondo le seguenti modalità: (i) Web Service: i web services sono offerti in modalità SOAP, con layer di sicurezza SAML su canale di trasmissione HTTPS; e (ii) Applicazione Web.I canali per il supporto ad amministrazioni e utenti sono i seguenti: 1. GitHub; 2. forum; 3. newsletter. Tutta la documentazione tecnica è disponibile su docs italia - ANPR http://docs.anpr.it</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSDL">
+    <dct:title>Web Service Definition Language</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>WSDL</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_smartcard">
+    <dct:title>Smartcard</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>smartcard</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SOAP">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>SOAP</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>Simple Object Access Protocol</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg">
+    <dct:title>DECRETO LEGISLATIVO 26 agosto 2016, n. 179</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>201609/13/16G00192</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:description>Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2013/10/01/13G00152/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 23 agosto 2013, n. 109</dct:title>
+    <dct:identifier>2013/10/01/13G00152</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:description>Regolamento recante disposizioni per la prima attuazione dell'articolo 62 del decreto legislativo 7 marzo 2005, n. 82, come modificato dall'articolo 2, comma 1, del decreto-legge 18 ottobre 2012, n. 179, convertito dalla legge 17 dicembre 2012, n. 221, che istituisce l'Anagrafe Nazionale della Popolazione Residente (ANPR).</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2015/08/14/15G00140/sg%20">
+    <dct:title>DECRETO DEL PRESIDENTE DELLA REPUBBLICA 17 luglio 2015, n. 126</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2015/08/14/15G00140</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:description>Regolamento recante adeguamento del regolamento anagrafico della popolazione residente, approvato con decreto del Presidente della Repubblica 30 maggio 1989, n. 223, alla disciplina istitutiva dell'anagrafe nazionale della popolazione residente.</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2015/01/08/15G00002/sg">
+    <dct:description>Regolamento recante modalita' di attuazione e di funzionamento dell'Anagrafe nazionale della popolazione residente (ANPR) e di definizione del piano per il graduale subentro dell'ANPR alle anagrafi della popolazione residente.</dct:description>
+    <dct:title>DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 10 novembre 2014, n. 194</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2015/01/08/15G00002</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_SAML">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>SAML</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>Security Assertion Markup Language</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_ANPR_WSsecurity">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>WS-Security</dct:identifier>
+    <dct:title>Web Services Security</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+</rdf:RDF>

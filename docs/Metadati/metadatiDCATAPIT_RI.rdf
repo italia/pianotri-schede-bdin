@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/1942/04/04/042U0262/sg">
+    <dct:description>Approvazione del testo del Codice civile. In particolare per il registro imprese articolo 2188.</dct:description>
+    <dct:identifier>1942/04/04/042U0262</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>REGIO DECRETO 16 marzo 1942, n. 262</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/RI_5">
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/1996/02/03/096G0016/sg"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:landingPage rdf:resource="http://www.registroimprese.it"/>
+    <dct:description xml:lang="it">l Registro Imprese è un registro pubblico informatico previsto dal Codice Civile, che ha avuto completa attuazione a partire dal 1996 con la Legge relativa al riordino delle Camere di Commercio (Legge 580/1993) e con il successivo Regolamento di attuazione (D.P.R. 581/95). La Legge sopracitata ha istituito presso ciascuna Camera di Commercio l’Ufficio del Registro Imprese, con le seguenti caratteristiche: (i) ha competenza provinciale; (ii) è gestito secondo tecniche informatiche; (iii) la sua tenuta è affidata alla locale Camera di Commercio, sotto la vigilanza di un Giudice, delegato dal Presidente del Tribunale del capoluogo di Provincia; (iv) è retto da un Conservatore nominato dalla giunta nella persona del Segretario Generale ovvero di un dirigente della Camera di Commercio che assicura la corretta tenuta del Registro Imprese in osservanza delle disposizioni in materia e delle decisioni del Giudice del Registro. Il Registro Imprese può essere definito come l’anagrafe delle imprese: vi si trovano infatti i dati (costituzione, modifica, cessazione) di tutte le imprese con qualsiasi forma giuridica e settore di attività economica, con sede o unità locali sul territorio nazionale, nonché degli altri soggetti previsti dalla legge. Il Registro Imprese contiene tutte le principali informazioni relative alle imprese (denominazione, statuto, amministratori, sede, eccetera) e tutti i successivi eventi che le hanno interessate dopo l’iscrizione (ad es. modifiche dello statuto e di cariche sociali, trasferimento di sede, liquidazione, eccetera). Il Registro Imprese fornisce quindi un quadro completo della situazione giuridica di ciascuna impresa ed è un archivio fondamentale per l’elaborazione di indicatori di sviluppo economico ed imprenditoriale in ogni area di appartenenza. Nel Registro Imprese confluisce un’altra banca dati pubblica, il Repertorio Economico Amministrativo(REA), che ha lo scopo di integrare i dati del Registro Imprese con informazioni di carattere economico, statistico e amministrativo. Tali informazioni riguardano dati quali, ad esempio, le modifiche e la cessazione dell’attività, l’insegna, la nomina di responsabili tecnici, l’attività prevalente, l’apertura, la cessazione e le modifiche delle unità locali, e molto altro ancora. Gli enti pubblici, le associazioni ed altri organismi non obbligati all’iscrizione al Registro Imprese sono comunque tenuti a comunicare le informazioni al REA quando esercitano un’attività economica. L’attuale struttura del sistema di gestione del registro imprese vede impegnati con ruoli e compiti diversi, le Camere, l’Unioncamere e InfoCamere: presso le Camere di Commercio è istituito l’ufficio registro imprese che provvede alla tenuta del registro imprese, funzione di carattere pubblicistico; Unioncamere cura e rappresenta gli interessi generali delle Camere e degli altri organismi del sistema camerale (art. 7 legge 580/93); InfoCamere (società consortile di informatica delle Camere di Commercio Italiane) ha il compito di approntare, organizzare e gestire, in qualità di Responsabile del trattamento, il sistema informatico nazionale in grado di trattare e distribuire in tempo reale atti, documenti e informazioni del Registro. Il registro imprese fornisce diverse tipologie di certificati e visure camerali, tra le quali anche quelle in lingua inglese. Sin dalla nascita nel febbraio 1996, erano disponibili modalità informatiche per l’alimentazione del Registro; dal 2003 tutte le comunicazioni, da parte delle imprese, al registro imprese vanno inoltrate anche in modalità telematica e dal 2010 esclusivamente in via telematica attraverso la Comunicazione Unica. A seguito di tale innovazione la qualità dei dati è assicurata, oltre che dalla crescente automatizzazione delle operazioni, anche dal costante allineamento delle posizioni iscritte nel Registro Imprese con altre Pubbliche Amministrazioni come Agenzia Entrate, INPS, INAIL ed altri, ovvero gli enti destinatari della Comunicazione Unica agli Uffici del Registro Imprese. Contribuisce alla qualità dei dati anche la vigilanza e il potere di emanare direttive del Ministero dello sviluppo economico oltre che il lavoro degli uffici registro imprese. I benefici della base di dati sono i seguenti: 1. Valore legale delle informazioni contenute nel registro imprese relativo a circa 6 milioni di soggetti economici; 2. Pubblicità legale degli atti e fatti economici relativi ai principali soggetti tenuti all’iscrizione; 3. Banca dati unica a livello nazionale accessibile e disponibile on line; 4. Condivisione informatica dei dati con le principali pubbliche amministrazioni e conseguente semplificazione burocratica degli adempimenti degli imprenditori, con trasversale riduzione dei costi ed ottimizzazione dei tempi e delle risorse; 5. Arricchimento informativo attraverso molteplici banche dati provenienti da altre P.A. 6. Maggiore accessibilità e disponibilità del patrimonio informativo anche dall’estero (sia attraverso il portale e-justice Business Register Interconnection System limitatamente ad alcune informazioni, che attraverso European Business Register). La banca dati è interoperabile sia per quanto riguarda l’alimentazione che la consultazione: la norma prevede infatti sia la modalità web internet che quella automatizzata e massiva, a disposizione di operatori del mercato, che possono interfacciare il loro sistema informatico con quello nazionale, collegamento finalizzato all’estrazione di documenti e dati o all’invio di pratiche telematiche.
+  L’accesso da parte dei privati può avvenire attraverso il sito del registro imprese, mediante accreditamento, oppure attraverso i servizi forniti dagli operatori commerciali, che accedono in modo interoperabile al Registro. L’accesso ai dati da parte delle P.A. è garantito in duplice modalità: (1) VerifichePA è il sito realizzato da InfoCamere per conto delle Camere di Commercio italiane per realizzare il dettato normativo (legge di stabilità 2012 - art. 15 legge 12/2011 n.183) che ha sancito il principio della ‘decertificazione’. Questo punto di accesso ai dati del Registro Imprese permette alle Pubbliche Amministrazioni di controllare la veridicità delle dichiarazioni sostitutive ricevute da imprese e persone relativamente ai dati contenuti nel Registro. Il sito permette la consultazione, per fini ispettivi e di controlli a campione, della ‘documentazione d’impresa’ (art. 43-bis, lettera a), del D.P.R. 445/2000, in ottemperanza a quanto previsto dall’art. 9, comma 4, della L. 180/2011). Fornisce inoltre elenchi di caselle PEC contenute nel Registro delle Imprese (articolo 6 co. 1-bis del CAD). (2) Cooperazione applicativa: per le PA l’altra modalità di accesso prevista dal CAD ai dati delle Camere di Commercio in modalità di cooperazione applicativa, attraverso la sottoscrizione di apposite convenzioni. l supporto a tutti gli utenti è garantito attraverso vari strumenti: (i) contact center; (ii) form per segnalazioni e richieste disponibile sul portale; (iii) Indirizzo email dedicato per informazioni o assistenza; (iv) social media dedicati.</dct:description>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ISOIEC27001"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-25</dct:modified>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/UICCIAA"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/BDIN/Standard/Standard_ISO90012008"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"/>
+    <dct:title>Registro Imprese</dct:title>
+    <skos:altLabel>RI</skos:altLabel>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/1942/04/04/042U0262/sg"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:identifier>UICCIAA_RI:D.5</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RI_ISO90012008">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>ISO90012008</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>ISO 9001:2008</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:description>Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche</dct:description>
+    <dct:identifier>201609/13/16G00192</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>DECRETO LEGISLATIVO 26 agosto 2016, n. 179</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/Standard/Standard_RI_ISOIEC27001">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>ISOIEC27001</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>ISO/IEC 27001:2013</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/1996/02/03/096G0016/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:description>Regolamento di attuazione dell'art. 8 della legge 29 dicembre 1993, n. 580, in materia di istituzione del registro delle imprese di cui all'art. 2188 del codice civile.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>1996/02/03/096G0016</dct:identifier>
+    <dct:title>DECRETO DEL PRESIDENTE DELLA REPUBBLICA 7 dicembre 1995, n. 581</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/UICCIAA">
+    <dct:identifier>UICCIAA</dct:identifier>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <foaf:name>Unione Italiana delle Camere di Commercio Industria, Artigianato e Agricoltura</foaf:name>
+  </rdf:Description>
+</rdf:RDF>

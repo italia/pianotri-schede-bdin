@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:ub122bL31C22",
+      "@type": "vcard:Voice",
+      "vcard:value": "0646548316"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/BAI_6",
+      "@type": [
+        "dcatapit:Dataset",
+        "dcat:Dataset"
+      ],
+      "dcat:ContactPoint": {
+        "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_BAI"
+      },
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/INTR"
+        }
+      ],
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2004-07-27;242!vig="
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "La Banca Dati centralizza le informazioni anagrafiche degli stranieri e le relative tabelle tipologiche utilizzate dalle procedure amministrative gestite dal Ministero dell’Interno al fine di tracciare la storia dello straniero all’interno del paese. La banca dati è basata su tecnologia Microsoft SQL Server 2012 e risponde alle misure minime di sicurezza di AgID. I benefici della base di dati sono: disponibilità dei riferimenti che costituiscono la storia dello straniero attraverso la ricerca di informazioni anagrafiche precedentemente inserite da vari applicativi. Le informazioni costituiscono una valida base da cui estrarre statistiche riguardanti il fenomeno migratorio e dell’accoglienza in Italia, rendendo immediatamente disponibili i dati altrimenti reperibili, in forma disaggregata, da varie banche dati del Ministero. I dati estratti dalla Banca Dati sono inviati via web services ad Agenzia delle Entrate ed Inps per le loro finalità istituzionali. I canali di supporto ad altre amministrazioni e altri utenti sono Web services interni. I dati contenuti nella banca dati sono di natura personale. Pertanto non è disponibile una versione open data della stessa."
+      },
+      "dcterms:identifier": "m_it_BAI:D.6",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-08-01"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it"
+      },
+      "dcterms:title": "Banca dati anagrafica dell’immigrazione",
+      "skos:altLabel": "BAI"
+    },
+    {
+      "@id": "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2004-07-27;242!vig=",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Regolamento per la razionalizzazione e la interconnessione delle comunicazioni tra Amministrazioni pubbliche in materia di immigrazione. In particolare per la base di dati si applica l'articolo 2 comma 2",
+      "dcterms:identifier": "2004-07-27;242",
+      "dcterms:title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 27 luglio 2004, n. 242"
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it",
+      "@type": [
+        "dcatapit:Agent",
+        "foaf:Agent"
+      ],
+      "dcterms:identifier": "m_it",
+      "foaf:name": "Ministero dell'Interno - Dipartimento per le Libertà civili e l’immigrazione"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche",
+      "dcterms:identifier": "201609/13/16G00192",
+      "dcterms:title": "DECRETO LEGISLATIVO 26 agosto 2016, n. 179"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_BAI",
+      "@type": [
+        "dcatapit:Organization",
+        "vcard:Organization",
+        "vcard:Kind"
+      ],
+      "vcard:fn": "Ufficio VI-Sistema Informatico del Dipartimento",
+      "vcard:hasEmail": {
+        "@id": "mailto:ufficiovi@pecdlci.interno.it"
+      },
+      "vcard:hasTelephone": {
+        "@id": "_:ub122bL31C22"
+      }
+    }
+  ]
+}
