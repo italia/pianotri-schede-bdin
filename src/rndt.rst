@@ -1,7 +1,7 @@
 1. Repertorio Nazionale dei Dati Territoriali
 =============================================
 
-Base dati di interesse nazionale ai sensi dell'articolo 60 comma 3 del CAD.  E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in `RDF/Turtle <Metadati/metadatiDCATAPIT_RNDT.ttl>`__, `RDF/XML <Metadati/metadatiDCATAPIT_RNDT.rdf>`__ e `JSON-LD <Metadati/metadatiDCATAPIT_RNDT.jsonld>`__ (nella descrizione, la base di dati è intesa come dataset di tutti i dataset del catalogo).
+Base dati di interesse nazionale ai sensi dell'articolo 60 comma 3 del CAD.  E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in :download: `RDF/Turtle <Metadati/metadatiDCATAPIT_RNDT.ttl>`, :download:`RDF/XML <Metadati/metadatiDCATAPIT_RNDT.rdf>`e :download:`JSON-LD <Metadati/metadatiDCATAPIT_RNDT.jsonld>` (nella descrizione, la base di dati è intesa come dataset di tutti i dataset del catalogo).
 
 Denominazione ufficiale (titolo)
 --------------------------------
