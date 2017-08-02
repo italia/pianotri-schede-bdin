@@ -2,7 +2,7 @@
 =========================================
 
 Base dati di interesse nazionale ai sensi dell'articolo 57-bis comma 1 del Codice dell'Amministrazione Digitale.
-E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in `RDF/Turtle <Metadati/metadatiDCATAPIT_IPA.ttl>`__, `RDF/XML <Metadati/metadatiDCATAPIT_IPA.rdf>`__ e `JSON-LD <Metadati/metadatiDCATAPIT_IPA.jsonld>`__ (Essendo questa una fotografia di quanto disponibile alla data di pubblicazione delle presenti schede, la data di ultimo aggiornamento indicata nei file è quella della pubblicazione stessa delle schede).
+E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in :download:`RDF/Turtle <Metadati/metadatiDCATAPIT_IPA.ttl>`, :download:`RDF/XML <Metadati/metadatiDCATAPIT_IPA.rdf>` e :download:`JSON-LD <Metadati/metadatiDCATAPIT_IPA.jsonld>` (essendo questa una fotografia di quanto disponibile alla data di pubblicazione delle presenti schede, la data di ultimo aggiornamento indicata nei file è quella della pubblicazione stessa delle schede).
 
 Denominazione ufficiale (titolo)
 --------------------------------
