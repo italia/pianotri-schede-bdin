@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg">
+    <dct:title>DECRETO LEGISLATIVO 26 agosto 2016, n. 179</dct:title>
+    <dct:description>Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>201609/13/16G00192</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/BAI_6">
+    <dct:description xml:lang="it">La Banca Dati centralizza le informazioni anagrafiche degli stranieri e le relative tabelle tipologiche utilizzate dalle procedure amministrative gestite dal Ministero dell’Interno al fine di tracciare la storia dello straniero all’interno del paese. La banca dati è basata su tecnologia Microsoft SQL Server 2012 e risponde alle misure minime di sicurezza di AgID. I benefici della base di dati sono: disponibilità dei riferimenti che costituiscono la storia dello straniero attraverso la ricerca di informazioni anagrafiche precedentemente inserite da vari applicativi. Le informazioni costituiscono una valida base da cui estrarre statistiche riguardanti il fenomeno migratorio e dell’accoglienza in Italia, rendendo immediatamente disponibili i dati altrimenti reperibili, in forma disaggregata, da varie banche dati del Ministero. I dati estratti dalla Banca Dati sono inviati via web services ad Agenzia delle Entrate ed Inps per le loro finalità istituzionali. I canali di supporto ad altre amministrazioni e altri utenti sono Web services interni. I dati contenuti nella banca dati sono di natura personale. Pertanto non è disponibile una versione open data della stessa.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-01</dct:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <skos:altLabel>BAI</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:title>Banca dati anagrafica dell’immigrazione</dct:title>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it"/>
+    <dct:identifier>m_it_BAI:D.6</dct:identifier>
+    <dcat:ContactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_BAI"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"/>
+    <dct:conformsTo rdf:resource="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2004-07-27;242!vig="/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub120bL31C22">
+    <vcard:value>0646548316</vcard:value>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2004-07-27;242!vig=">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>DECRETO DEL PRESIDENTE DELLA REPUBBLICA 27 luglio 2004, n. 242</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2004-07-27;242</dct:identifier>
+    <dct:description>Regolamento per la razionalizzazione e la interconnessione delle comunicazioni tra Amministrazioni pubbliche in materia di immigrazione. In particolare per la base di dati si applica l'articolo 2 comma 2</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_BAI">
+    <vcard:hasTelephone rdf:nodeID="ub120bL31C22"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <vcard:hasEmail rdf:resource="mailto:ufficiovi@pecdlci.interno.it"/>
+    <vcard:fn>Ufficio VI-Sistema Informatico del Dipartimento</vcard:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_it">
+    <dct:identifier>m_it</dct:identifier>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <foaf:name>Ministero dell'Interno - Dipartimento per le Libertà civili e l’immigrazione</foaf:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -2,7 +2,7 @@
 ===========================================================
 
 Base dati di interesse nazionale come definita nel decreto legge 18 ottobre 2012 n. 179.
-E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in `RDF/Turtle <Metadati/metadatiDCATAPIT_INIPEC.ttl>`__, `RDF/XML <Metadati/metadatiDCATAPIT_INIPEC.rdf>`__ e `JSON-LD <Metadati/metadatiDCATAPIT_INIPEC.jsonld>`__.
+E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in :download:`RDF/Turtle <Metadati/metadatiDCATAPIT_INIPEC.ttl>`, :download:`RDF/XML <Metadati/metadatiDCATAPIT_INIPEC.rdf>` e :download:`JSON-LD <Metadati/metadatiDCATAPIT_INIPEC.jsonld>`.
 
 
 Denominazione ufficiale (titolo)

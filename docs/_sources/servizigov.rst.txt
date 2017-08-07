@@ -2,7 +2,7 @@
 =================================
 
 Base dati equiparabile a quelle di interesse nazionale.
-E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in `RDF/Turtle <Metadati/metadatiDCATAPIT_servizigov.ttl>`__, `RDF/XML <Metadati/metadatiDCATAPIT_servizigov.rdf>`__ e `JSON-LD <Metadati/metadatiDCATAPIT_servizigov.jsonld>`__. (servizi.gov.it è descritto come il dataset di tutti i dataset dei servizi pubblici).
+E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in :download:`RDF/Turtle <Metadati/metadatiDCATAPIT_servizigov.ttl>`, :download:`RDF/XML <Metadati/metadatiDCATAPIT_servizigov.rdf>` e :download:`JSON-LD <Metadati/metadatiDCATAPIT_servizigov.jsonld>` (servizi.gov.it è descritto come il dataset di tutti i dataset dei servizi pubblici).
 
 Denominazione ufficiale (titolo)
 --------------------------------
@@ -43,7 +43,7 @@ Conformità a standard
 
 Home page o pagina web di riferimento
 -------------------------------------
-Non ancora disponibile online. 
+Non ancora disponibile online.
 
 
 Benefici

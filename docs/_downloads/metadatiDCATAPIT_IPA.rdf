@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_IPA">
+    <vcard:hasEmail rdf:resource="mailto:info@agid.gov.it"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <vcard:fn>Agenzia per l’Italia Digitale - Gestione Servizi Infrastrutturali.</vcard:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/IPA_10">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2014/03/12/14A02099/sg"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/Standard/Standard_IPA_OSSTMM"/>
+    <dcat:landingPage rdf:resource="http://indicepa.gov.it"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/Standard/Standard_IPA_owasp"/>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_IPA"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/resource/Distribution/BDIN/RDFNtriples_IPA"/>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-01</dct:modified>
+    <dct:title>Indice degli indirizzi delle pubbliche amministrazioni e dei gestori di pubblici servizi</dct:title>
+    <dct:identifier>agid_IPA:D.10</dct:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/resource/Distribution/BDIN/CSV_IPA"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/resource/Distribution/BDIN/RDFTurtle_IPA"/>
+    <dct:description xml:lang="it">L’Indice delle Pubbliche Amministrazioni (IPA) è una base dati pubblica alimentata dalle informazioni fornite, a norma di legge (CAD), dalle Pubbliche Amministrazioni e dai Gestori di Pubblici Servizi e finalizzata a rendere noti: (i) l’indirizzo di PEC dei Gestori di Pubblici Servizi e delle Aree Organizzative Omogenee (uffici di protocollo) delle Pubbliche Amministrazioni, per favorire lo scambio di documenti informatici attraverso canali ufficiali; (ii) il codice univoco che identifica gli uffici delle Pubbliche Amministrazioni destinatari di fatture, necessario, quindi, per il corretto recapito delle fatture elettroniche. L’IPA rappresenta pertanto un censimento delle Pubbliche Amministrazioni e dei Gestori di Pubblici Servizi, accessibile a chiunque, contenente oltre ai dati sopra citati, obbligatori per legge, anche informazioni sintetiche sull’ente (indirizzo, codice fiscale, legale rappresentante, sito web, canali social, classificazione...), sulla sua struttura organizzativa (organigramma, uffici, responsabili, indirizzi, telefono, email…), sui servizi erogati (descrizione, canale web di erogazione, e-mail di contatto...). Le informazioni dell’IPA sono utilizzate ad esempio come riferimento dal Ministero dell’Economia e delle Finanze per l’individuazione delle Pubbliche Amministrazioni tenute all’applicazione del meccanismo della scissione dei pagamenti di cui all’articolo 17-ter del d.P.R. 26 ottobre 1972, n. 633 (Split-payment) e per l’alimentazione della Banca dati delle Amministrazioni pubbliche (BDAP) per il controllo e monitoraggio degli andamenti della finanza pubblica.</dct:description>
+    <dcat:distribution rdf:resource="http://dati.gov.it/resource/Distribution/BDIN/RDFXML_IPA"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <skos:altLabel>IPA</skos:altLabel>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2013/05/22/13G00097/sg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Distribution/BDIN/RDFNtriples_IPA">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:description>Questa è la distribuzione Open Data RDF/Ntriples dell'IPA</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"/>
+    <dcat:downloadURL rdf:resource="http://spcdata.digitpa.gov.it/data/ipa.nt"/>
+    <dcat:accessURL rdf:resource="http://spcdata.digitpa.gov.it/dataIPA.html"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dct:title>Distribuzione RDF/NTriples dell'IPA</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Distribution/BDIN/CSV_IPA">
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dct:description>Questa è la distribuzione Open Data CSV dell'IPA</dct:description>
+    <dct:title>Distribuzione IPA CSV</dct:title>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="http://www.indicepa.gov.it/documentale/n-opendata.php"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2013/05/22/13G00097/sg">
+    <dct:title>MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 3 aprile 2013, n. 55</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2013/05/22/13G0009</dct:identifier>
+    <dct:description>Regolamento in materia di emissione, trasmissione e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi dell'articolo 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Distribution/BDIN/RDFXML_IPA">
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://spcdata.digitpa.gov.it/data/ipa.rdf"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dcat:accessURL rdf:resource="http://spcdata.digitpa.gov.it/dataIPA.html"/>
+    <dct:description>Questa è la distribuzione Open Data RDF/XML dell'IPA</dct:description>
+    <dct:title>Distribuzione RDF/XML dell'IPA</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>DECRETO LEGISLATIVO 26 agosto 2016, n. 179</dct:title>
+    <dct:identifier>201609/13/16G00192</dct:identifier>
+    <dct:description>Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Distribution/BDIN/RDFTurle_IPA">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://spcdata.digitpa.gov.it/data/ipa.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dct:description>Questa è la distribuzione Open Data RDF/turtle dell'IPA</dct:description>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+    <dct:title>Distribuzione RDF/turtle dell'IPA</dct:title>
+    <dcat:accessURL rdf:resource="http://spcdata.digitpa.gov.it/dataIPA.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+    <foaf:name>Agenzia per l'Italia Digitale</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>agid</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Standard/Standard_IPA_OSSTMM">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>OSSTMM</dct:identifier>
+    <dct:title>Open Source Security Testing Methodology Manual (OSSTMM)</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2014/03/12/14A02099/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:description>Regole tecniche per il protocollo informatico ai sensi degli articoli 40-bis, 41, 47, 57-bis e 71, del Codice dell'amministrazione digitale di cui al decreto legislativo n. 82 del 2005.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>2014/03/12/14A02099</dct:identifier>
+    <dct:title>DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 3 dicembre 2013</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Standard/Standard_IPA_owasp">
+    <dct:identifier>owasp</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>Open Web Application Security Project (OWASP)</dct:title>
+  </rdf:Description>
+</rdf:RDF>

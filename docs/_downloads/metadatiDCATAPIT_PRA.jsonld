@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/1992/12/31/092G0564/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Regolamento sulle modalita' e le procedure concernenti il funzionamento degli uffici del pubblico registro automobilistico, la tenuta degli archivi, la conservazione della documentazione prescritta, la elaborazione e fornitura dei dati e delle statistiche dei veicoli iscritti, la forma, il contenuto e le modalita' di utilizzo della modulistica occorrente per il funzionamento degli uffici medesimi, nonche' i tempi di attuazione delle nuove procedure, in attuazione dell'art. 7 della legge 9 luglio 1990, n. 187.",
+      "dcterms:identifier": "1992/12/31/092G0564",
+      "dcterms:title": "MINISTERO DELLE FINANZE  - DECRETO 2 ottobre 1992, n. 514"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/1994/03/22/093A6158/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Testo aggiornato del decreto legislativo 30 aprile 1992, n. 285, recante il nuovo codice della strada.",
+      "dcterms:identifier": "1994/03/22/093A6158",
+      "dcterms:title": "TESTO AGGIORNATO DEL DECRETO LEGISLATIVO 30 aprile 1992, n. 285"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/PRA_12",
+      "@type": [
+        "dcat:Dataset",
+        "dcatapit:Dataset"
+      ],
+      "dcat:contactPoint": {
+        "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_PRA"
+      },
+      "dcat:landingPage": {
+        "@id": "http://www.aci.it/"
+      },
+      "dcat:theme": {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+      },
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/1994/03/22/093A6158/sg"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/1992/12/31/092G0564/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISOIEC27001"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/1992/12/28/092G0531/sg"
+        },
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/2000/12/06/000G0405/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISO90012008"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "Il Pubblico Registro Automobilistico è stato istituito con la finalità di assicurare la certezza e la sicurezza della circolazione giuridica dei veicoli, assolvendo alla funzione di pubblicità legale della proprietà e degli altri diritti reali aventi ad oggetto i veicoli. La gestione delle funzioni del PRA è stata affidata all’Automobile Club d’Italia dal 1927. Tale impostazione è stata mantenuta nel Codice Civile (art. 815), che ha assoggettato i veicoli a particolari forme di pubblicità. Secondo il principio base su cui si fonda il PRA, ai sensi dell’art. 1156 c.c. il trasferimento del bene da chi non ne sia proprietario a chi lo acquisisce in buona fede ed in base a un titolo idoneo non produce effetti nei confronti del proprietario risultante dal pubblico registro. Ai sensi dell’art. 2644 c.c., inoltre, le controversie tra più acquirenti del bene da un unico dante causa sono risolte a favore di colui che per primo ha trascritto l’atto nel pubblico registro, sulla base del principio della priorità della trascrizione. Il PRA ha avviato un percorso di integrale digitalizzazione dei servizi. Il punto di partenza è costituito dal Certificato di Proprietà Digitale che dal 5 ottobre 2015 ha sostituito il tradizionale Certificato cartaceo, e a cui fa seguito una progressiva e completa digitalizzazione dei processi e dei documenti cartacei che oggi sono necessari per la lavorazione di una pratica automobilistica, in concreta applicazione dei principi fissati dal Codice dell’Amministrazione Digitale (CAD). In particolare, circa 3.500 fascicoli di formalità al giorno sono archiviati digitalmente con conservazione sostitutiva a norma, e da luglio 2016 è possibile formare atti di vendita di veicoli in modalità nativamente digitale. Al PRA sono riconnesse funzioni pubbliche fondamentali: (i) Tutela della proprietà e sicurezza delle relazioni giuridico-commerciali; (ii) Individuazione delle responsabilità civili, amministrative e penali connesse alla proprietà e alla circolazione dei veicoli; (iii) Funzioni di ordine pubblico; (iv) Funzioni assicurative e statistiche sul parco circolante; (v) Funzioni tributarie. Per quanto concerne la finanza pubblica, il PRA assicura, grazie all’attività di riscossione svolta dagli Uffici dell’ACI, entrate tributarie per circa 358 milioni di euro a favore dell’Erario per Imposta di bollo e oltre 1699 milioni di euro a favore delle Province per Imposta Provinciale di Trascrizione (IPT). Inoltre, il PRA costituisce il “ruolo tributario” delle tasse automobilistiche, per le quali consente la riscossione di circa 5,7 miliardi di euro all’anno, in quanto l’obbligo di pagamento del tributo sorge proprio con l’iscrizione del veicolo al PRA. Per le Regioni e le Province Autonome il PRA costituisce l’archivio fiscale di riferimento per tutti i veicoli. La banca dati che ne risulta è uno valido strumento che nel tempo ha consentito di eliminare completamente il rischio di evasione fiscale sull’Imposta Provinciale di Trascrizione e, parallelamente, di effettuare il controllo del pagamento della tassa automobilistica sulla totalità dei veicoli circolanti (grazie al PRA il “bollo auto” è l’unico tributo oggi controllato al 100% a livello nazionale). Con particolare riferimento all’IPT, l’ACI ne assicura la gestione completa alle Province ed alle Città Metropolitane, comprensiva della riscossione dell’Imposta (al PRA i cittadini possono pagare tutto il dovuto anche con moneta elettronica oltre che in contanti e con assegni circolari), della contabilizzazione, del controllo , del riversamento agli Enti percettori (oltre a rimborsi e recuperi) senza oneri per tali Enti Locali. Inoltre, ormai da circa 10 anni, tali Enti hanno a disposizione un Portale dei servizi IPT, che realizza la piena apertura degli archivi PRA- per le formalità di competenza di ciascun Ente percettore - dei dati della formalità e della IPT, in modo da poter effettuare controlli anche in autonomia e da remoto. Il PRA offre garanzia e tutela, quindi, a una ricchezza di oltre 100 miliardi di Euro, pari al valore stimato dell’intero parco automobilistico italiano. Per la registrazione delle pratiche automobilistiche, il PRA è accessibile attraverso il sistema capillare di accesso ai servizi introdotto con il DPR n.358/2000, mediante l’attivazione dello Sportello Telematico dell’Automobilista. I cittadini possono infatti svolgere le pratiche automobilistiche con un unico accesso ad un solo punto di servizio, ottenendo l’immediata definizione della pratica ed il rilascio a vista dei documenti di circolazione e di proprietà dei veicoli e delle targhe. In particolare, oltre l’88% delle pratiche presentate sono definite entro 15 minuti, il 5% tra 15 e i 30 minuti, il 4% tra i 30 e 60 minuti, il 2% tra i 60 e i 120 minuti e l’1% oltre i 120 minuti ma nella stessa giornata di presentazione. E’ inoltre possibile presentare una pratica, sia da parte degli operatori professionali che dell’utenza privata, a livello nazionale, senza cioè alcun vincolo territoriale. Per la presentazione delle richieste di formalità, così come per le certificazioni e visure, è previsto il pagamento di emolumenti le cui tariffe sono fissate da un Decreto interministeriale. Oggi il P.R.A. annota i seguenti eventi relativi ai veicoli che incidono sulla proprietà: (i) L’acquisto della proprietà di un veicolo nuovo di fabbrica; (ii) Il trasferimento di proprietà tra vivi mediante contratto di compravendita, permuta, donazione; (iii) Il trasferimento di proprietà “mortis causa”; (iv) Le sentenze che dichiarano acquistato, modificato o estinto il diritto di proprietà; (v) La costituzione di usufrutto; (vi) Le domande giudiziali relative ad atti soggetti a trascrizione (es. per l’accertamento del passaggio di proprietà) oppure dirette ad impugnare la trascrizione già avvenuta; (vii) l pignoramento e il sequestro conservativo su richiesta dei creditori di colui che risulta proprietario del bene; (viii) I provvedimenti relativi alla procedura fallimentare (concordato preventivo e dichiarazione di fallimento); (ix) Le ipoteche sui veicoli; provvedimenti di confisca del bene. Il PRA registra, inoltre, anche atti che, pur non incidendo direttamente sulla proprietà del veicolo, hanno riflesso economico nelle relazioni tra parti private e con la P.A.: (x) Perdita di possesso o rientro in possesso del veicolo; (xi) Utilizzazione del veicolo in leasing; (xii) Cessione del veicolo ai creditori; (xiii) scrizione del bene in un fondo patrimoniale; (xiv) Cessione dell’usufrutto del bene; (xv) Cessazione della circolazione di un veicolo (per demolizione o definitiva esportazione all’estero); (xvi) Variazione di residenza dell’intestatario e delle caratteristiche tecniche del veicolo. Il PRA alimenta pertanto una banca dati comprensiva di oltre 110 milioni di autoveicoli (di cui uno storico di circa 65 milioni radiati). Attraverso tale banca dati sono rese fruibili più di 12 milioni di Visure/ Certificazioni PRA l’anno mediante i diversi operatori ed oltre 13 milioni di formalità l’anno a supporto dei cittadini e degli oltre 6.500 Sportelli Telematici dell’Automobilista presenti sul territorio. Oltre 50.000 utenti professionali pubblici e privati sono connessi alle basi dati operazionali con servizi online. Le Forze dell’Ordine eseguono annualmente circa 7 milioni di consultazioni. Per la gestione dei servizi, il sistema PRA coinvolge: 106 Uffici Territoriali ACI, con circa 400 sportelli multi-funzione che consentono di effettuare diverse operazioni presso un unico sportello (logica one-stop shop”); Operatori Professionali (circa 1.500 Delegazioni ACI e 6.000 Agenzie di Pratiche Auto); - 91 Prefetture; 177 Concessionari dei Tributi; Comuni – per le Consultazioni; Forze dell’Ordine – per le Consultazioni; Ministero Giustizia. Il PRA eroga inoltre una serie di servizi ulteriori. Ad esempio, comunica all’Agenzia delle Entrate, al Corpo della Guardia di Finanza e alla Regione territorialmente competente i soggetti che risultino proprietari di dieci o più veicoli al fine di monitorare il pericoloso fenomeno delle intestazioni fittizie. Appronta, in accordo con il Ministero di Giustizia, una procedura che consente l’inoltro della richiesta di annotazione dei sequestri preventivi tramite posta elettronica certificata. Concorda con il Comitato Sicurezza Antiterrorismo costituito ai sensi del D. Lvo 109/2007 e realizzare la procedura di congelamento dei veicoli intestati a soggetti inseriti nelle liste antiterrorismo stilate dalla UE. Inoltre, in ottica multicanale, tramite la tecnologia sviluppata da ACI è stato realizzato il servizio “visurenet” che consente di richiedere le visure PRA mediante internet ed APP Mobile, con pagamento a mezzo carta di credito e di Crononet (corredato dal QR-code, come misura di sicurezza), per la richiesta del Certificato Cronologico che attesta la storia delle vicende giuridico-patrimoniali di un veicolo fin dalla sua iscrizione al PRA. Per le categorie di soggetti che siano impossibilitati a lasciare il proprio domicilio (disabili, ammalati lungodegenti), sono stati realizzati i servizi a domicilio con lo scopo di rendere accessibile ai disabili alcuni dei servizi relativi al PRA che abitualmente vengono erogati agli sportelli ACI. L’utente ha così la possibilità di fissare gratuitamente un appuntamento con un funzionario ACI presso la propria abitazione per potere effettuare una pratica PRA (es. passaggio di proprietà, radiazioni, perdite di possesso, duplicati del certificato di proprietà ecc.). I benefici possono essere così riassunti: Sul PRA è fondato un sistema legale e garantito di tutela delle situazioni giuridiche, basato sull’istituto della trascrizione (senza il PRA la titolarità dei veicoli si baserebbe sul principio “possesso vale titolo”, regola generale che vale per i beni mobili art. 812 c.c.). Sul PRA si basano importanti mezzi di tutela del credito privato e pubblico: è possibile iscrivere con certezza giuridica le ipoteche sui veicoli, che interessano migliaia di veicoli l’anno, ed i fermi amministrativi. Grazie al PRA sono esercitate funzioni pubbliche di rilievo essenziale quali l’individuazione delle responsabilità civili, amministrative e penali, connesse alla proprietà e alla circolazione dei veicoli, funzioni di ordine pubblico e sicurezza sociale, assicurative e statistiche. Con l’incremento degli scambi commerciali a livello europeo ed extraeuropeo (ad es. importazioni/esportazioni di veicoli), è fondamentale il ruolo del PRA nell’assicurare un sistema garantista preordinato all’effettuazione di controlli efficaci, che facciano della registrazione un momento di integrazione di tutte le base dati informatiche esistenti (assicurazioni, anagrafi, ambiente, sicurezza), al fine anche di prevenire frodi e furti e punire più facilmente le infrazioni commesse in qualsiasi Stato Membro. Il Pubblico Registro Automobilistico, oltre a assicurare l’importante funzione di garanzia giuridica per i cittadini e lo Stato, è inoltre anche strumento di un complesso sistema fiscale connesso alla proprietà dei veicoli. La gestione dell’IPT da parte di ACI-PRA ha consentito di eliminare completamente il rischio di evasione del tributo. Con l’entrata in vigore della normativa in materia di smaltimento dei veicoli che ha legato il momento della cancellazione giuridica del veicolo (radiazione dal PRA) alla sua materiale distruzione (effettuata solo presso centri di raccolta autorizzati), gli Uffici PRA, nell’ambito della verifica della regolarità amministrativa della demolizione dei veicoli, si avvalgono di un sistema automatizzato per il controllo dei soggetti legittimati a svolgere tutte le formalità finalizzate anche alla tutela ambientale. Infatti gli Uffici PRA segnalano alle Amministrazioni competenti (Province, Comuni, Regioni) gli abusi riscontrati (es.: soggetti privi di autorizzazioni o con autorizzazione scadute) in materia. Inoltre è possibile gestire grazie al PRA il contributo per gli pneumatici fuori uso (c.d. PFU) che consente il finanziamento del corretto smaltimento, riciclo e recupero degli stessi con finalità ambientali. L’ACI fornisce, desumendole dalla banca dati PRA, circa 500 milioni di informazioni all’anno ad Enti Pubblici, Enti Locali, Società di ricerca anche estere per la elaborazione di politiche ambientali e di mobilità sostenibile. Per quanto riguarda invece le modalità di fruizione, In generale, la banca dati fornisce informazioni a terzi previo rimborso dei costi. Non esistono API e può essere acceduta tramite cooperazione applicativa e attraverso interfaccia web standard. Essendo un registro pubblico, può essere interrogato da chiunque per targa, sia attraverso il servizio di visure e certificazioni erogato dagli Uffici Territoriali, che attraverso l’erogazione dei dati da parte del Sistema Informativo centrale dell’ACI. Possono in particolare accedere alla banca dati P.R.A. attraverso il Sistema Informativo Centrale dell’ACI le Pubbliche Amministrazioni, le persone fisiche e le persone giuridiche private. Gli organi costituzionali, giurisdizionali, di polizia e militari, le amministrazioni centrali e periferiche dello Stato, nonché, limitatamente alle forniture di dati statistici aggregati in schemi precostituiti, l’ISTAT e gli Uffici di Statistica degli Enti aderenti al SISTAN, possono usufruire gratuitamente delle informazioni necessarie per gli specifici compiti di istituto. L’accesso ai dati avviene di regola mediante interrogazione per targa. Dati e informazioni su base personale possono tuttavia essere forniti, oltre che agli organi costituzionali, giurisdizionali ed alle amministrazioni centrali e periferiche dello Stato, anche a concessionari per la riscossione, ad avvocati, a notai, a coloro che svolgono atti di investigazione privata, a Enti Pubblici, qualora tali informazioni siano necessarie ai fini dell’espletamento di rilevanti funzioni di interesse pubblico, nonché a persone fisiche o giuridiche private limitatamente ai veicoli ad esse intestati. La fornitura dei dati anagrafici e tecnici desunti dagli archivi del P.R.A, nonché di quelli erogati su base personale può avvenire in via continuativa, previa stipula di convenzione, ovvero “una tantum” sulla base di apposita istanza. Di seguito l’elenco dei soggetti pubblici e privati che fruiscono sistematicamente o occasionalmente dei dati della banca dati PRA: PP.AA, centrali: Ministero Economia e Finanza, Ministero Trasporti, Ministero Difesa, Ministero Giustizia, Ministero Ambiente, Ministero Funzione Pubblica, Ministero Ambiente; PP.AA. locali: regioni, Province, Città metropolitane, Comuni, altri Enti pubblici; Mercato Automotive Professionale: Concessionari, Costruttori (Anfia-Unrae), Studi di consulenza, Delegazioni ACI, Assicurazioni (ANIA), Officine-centri di revisione; Domanda di servizi: privati, avvocati, notai, curatori, soc. autostrade, università-centri di ricerca, assicurazioni, concessionari riscossione, Poste; Poli telematici: DT, Ced Interforze, Sermetra, Sogei. Il supporto alle PPAA e agli utenti è assicurato dall’informativa pubblicata sul sito http://www.aci.it."
+      },
+      "dcterms:identifier": "aci_PRA:D.12",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-08-01"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/aci"
+      },
+      "dcterms:title": "Pubblico Registro Automobilistico",
+      "skos:altLabel": "PRA"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISOIEC27001",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:identifier": "ISOIEC27001",
+      "dcterms:title": "ISO/IEC 27001:2013"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_PRA",
+      "@type": [
+        "vcard:Organization",
+        "dcatapit:Organization",
+        "vcard:Kind"
+      ],
+      "vcard:fn": "Direzione Sistemi Informativi ed Innovazione",
+      "vcard:hasEmail": {
+        "@id": "mailto:direzionesistemiinformativiedinnovazione@pec.aci.it"
+      }
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/1992/12/28/092G0531/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Regolamento di esecuzione e di attuazione del nuovo codice della strada.",
+      "dcterms:identifier": "1992/12/28/092G0531",
+      "dcterms:title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 dicembre 1992, n. 495"
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/aci",
+      "@type": [
+        "dcatapit:Agent",
+        "foaf:Agent"
+      ],
+      "dcterms:identifier": "aci",
+      "foaf:name": "Automobile Club d’Italia - ACI"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/Standard/Standard_ISO90012008",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:identifier": "ISO90012008",
+      "dcterms:title": "ISO 9001:2008"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/2000/12/06/000G0405/sg",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Regolamento recante norme per la semplificazione del procedimento relativo all'immatricolazione, ai passaggi di proprieta' e alla reimmatricolazione degli autoveicoli, dei motoveicoli e dei rimorchi (n. 29, allegato 1, della legge 8 marzo 1999, n. 50).",
+      "dcterms:identifier": "2000/12/06/000G0405",
+      "dcterms:title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 19 settembre 2000, n. 358"
+    }
+  ]
+}

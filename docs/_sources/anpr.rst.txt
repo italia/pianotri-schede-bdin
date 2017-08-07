@@ -1,7 +1,7 @@
 2. Anagrafe nazionale della popolazione residente
 =================================================
 
-Base dati di interesse nazionale ai sensi dell'articolo 60 comma 3 del CAD. E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in `RDF/Turtle <Metadati/metadatiDCATAPIT_ANPR.ttl>`__, `RDF/XML <Metadati/metadatiDCATAPIT_ANPR.rdf>`__ e `JSON-LD <Metadati/metadatiDCATAPIT_ANPR.jsonld>`__ (Essendo questa una fotografia di quanto disponibile alla data di pubblicazione delle presenti schede, la data di ultimo aggiornamento indicata nei file è quella della pubblicazione stessa delle schede).
+Base dati di interesse nazionale ai sensi dell'articolo 60 comma 3 del CAD. E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in :download:`RDF/Turtle <Metadati/metadatiDCATAPIT_ANPR.ttl>`, :download:`RDF/XML <Metadati/metadatiDCATAPIT_ANPR.rdf>` e :download:`JSON-LD <Metadati/metadatiDCATAPIT_ANPR.jsonld>` (essendo questa una fotografia di quanto disponibile alla data di pubblicazione delle presenti schede, la data di ultimo aggiornamento indicata nei file è quella della pubblicazione stessa delle schede).
 
 Denominazione ufficiale (titolo)
 --------------------------------

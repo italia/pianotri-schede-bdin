@@ -1,0 +1,55 @@
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dati.gov.it/resource/Dataset/BDIN/ANA_7>
+  a dcatapit:Dataset, dcat:Dataset ;
+  dct:title "Anagrafe nazionale degli assistiti" ;
+  skos:altLabel "ANA" ;
+  dct:description """L’Anagrafe nazionale degli assistititi (ANA) è stata istituita dall’articolo 62-ter del CAD, nell’ambito del sistema informativo realizzato dal Ministero dell’economia e delle finanze in attuazione di quanto disposto dall’articolo 50 del decreto-legge 30 settembre 2003, n. 269, convertito, con modificazioni, dalla legge 24 novembre 2003, n. 326 (Sistema Tessera Sanitaria). L’ANA, realizzata dal Ministero dell’economia e delle finanze, in accordo con il Ministero della salute in relazione alle specifiche esigenze di monitoraggio dei livelli essenziali di assistenza (LEA), subentra, per tutte le finalità previste dalla normativa vigente, alle anagrafi e agli elenchi degli assistiti tenuti dalle singole aziende sanitarie locali (ASL) e dai Servizi di assistenza sanitaria ai naviganti (SASN), i quali mantengono la titolarità dei dati di propria competenza e ne assicurano l’aggiornamento. A tal fine, l’ANA assicura alle ASL/SASN la disponibilità dei dati e degli strumenti per lo svolgimento delle funzioni di propria competenza e garantisce l’accesso ai dati in essa contenuti da parte delle pubbliche amministrazioni per le relative finalità istituzionali. I principali processi supportati sono: (i) la gestione dei dati anagrafici ed amministrativi degli assistiti del Servizio Sanitario Nazionale (SSN), quali l’iscrizione al SSN e i trasferimenti di residenza/assistenza, la scelta e revoca del medico, la gestione delle esenzioni, etc., nonché degli stranieri cui è erogata l’assistenza; (ii) l’allineamento dei dati identificativi dell’assistito e l’identificazione certa degli assistiti, nell’ambito del Fascicolo Sanitario Elettronico; (iii) la messa a disposizione dei dati anagrafici ed amministrativi degli assistiti ai sistemi di governance del SSN, sia a livello nazionale (Nuovo Sistema Informativo Sanitario del Ministero della salute) sia a livello regionale. L’ANPR rende disponibili all’ANA i necessari dati e servizi secondo le modalità di interoperabilità tra le pubbliche amministrazioni, così come previsto dal CAD. L’ANA coopera, attraverso appositi servizi di cooperazione, con le banche dati degli assistiti già istituite a livello regionale per le stesse finalità perseguite dall’ANA, fermo restando che anche per tali banche dati l’ANA costituisce l’unica anagrafe di riferimento degli assistiti. Per dare attuazione all’articolo 62-ter del CAD è stato predisposto lo schema di decreto del Presidente del Consiglio dei Ministri, di natura regolamentare, recante “Modalità di attuazione e di funzionamento dell’Anagrafe Nazionale degli Assistiti (ANA) e definizione del piano per il graduale subentro dell’ANA alle anagrafi degli assistiti delle aziende sanitarie locali e del Ministero della salute”. Lo stesso è stato sottoposto al parere dell’Autorità Garante per la protezione dei dati personali e sarà adottato dopo aver completato l’iter previsto (Intesa con la Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano e parere del Consiglio di Stato). I benefici della base dati sono: 1. Unificazione in un’unica banca dati dell’anagrafe degli assistiti del SSN, con i conseguenti vantaggi in termini di incremento dell’efficacia e dell’efficienza dei processi di automazione amministrativa, nonché riduzione di costi; 2. Miglioramento dei servizi ai cittadini, per i quali vengono ridotti gli oneri di comunicazione verso la PA (es. in caso di trasferimento di residenza le informazioni vengono automaticamente comunicate da ANPR ad ANA) e che hanno accesso diretto alle proprie informazioni anche in modalità telematica; 3. Maggiore precisione e accuratezza dei dati relativi agli assistiti del SSN, nonché maggiore accessibilità e disponibilità generalizzata di tale patrimonio informativo, reso disponibile in modo organico e sincronizzato a tutte le PA aventi titolo per accedervi, sia per finalità gestionali (inclusa identificazione assistito nel FSE) sia per finalità di governance. Le modalità di fruizione sono: (i) il Ministero della salute, le regioni e le province autonome, nonché le ASL e i Medici di Medicina Generale o un Pediatra di Libera Scelta (MMG/PLS), hanno accesso, per quanto di competenza, ai dati del sistema ANA, mediante web services o tramite sito web dell’ANA; (ii) L’assistito registrato nell’ANA ha accesso ai propri dati presso la ASL di competenza, ovvero tramite sito web dell’ANA; (iii) le altre pubbliche amministrazioni aventi titolo hanno accesso, esclusivamente per l’espletamento dei propri compiti istituzionali, ai dati del sistema ANA, mediante web services o tramite sito web dell’ANA. Il supporto alle PA e agli utenti è garantito attraverso vari strumenti quali un indirizzo mail dedicato; un form per segnalazioni e richieste disponibile sul sito web; un Contact center multicanale (1° livello), a valle del quale operano i gruppi specialistici (2° livello)."""@it ;
+  dct:identifier "m_sa_ANA:D.7" ;
+  dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_sa> ;
+  dct:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_ef> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT> ;
+  dct:modified "2017-08-01"^^xsd:date ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>  ;
+  dct:conformsTo <http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg> ,  <http://www.gazzettaufficiale.it/eli/id/2017/02/08/17G00016/sg> , <http://www.gazzettaufficiale.it/eli/id/2003/11/25/03A12911/sg> , <http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2000-12-29&atto.codiceRedazionale=000G0441> .
+
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_sa>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "m_sa" ;
+    foaf:name "Ministero della Salute" .
+
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_ef>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "m_ef" ;
+    foaf:name "Ministero dell'Economia e delle Finanze" .
+
+<http://www.gazzettaufficiale.it/eli/id/2016/09/13/16G00192/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "201609/13/16G00192";
+  dct:title "DECRETO LEGISLATIVO 26 agosto 2016, n. 179" ;
+  dct:description "Modifiche ed integrazioni al Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, ai sensi dell'articolo 1 della legge 7 agosto 2015, n. 124, in materia di riorganizzazione delle amministrazioni pubbliche" .
+
+<http://www.gazzettaufficiale.it/eli/id/2017/02/08/17G00016/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2017/02/08/17G00016";
+  dct:title "MINISTERO DELLA SALUTE - DECRETO 7 dicembre 2016, n. 262" ;
+  dct:description "Regolamento recante procedure per l'interconnessione a livello nazionale dei sistemi informativi su base individuale del Servizio sanitario nazionale, anche quando gestiti da diverse amministrazioni dello Stato." .
+
+<http://www.gazzettaufficiale.it/eli/id/2003/11/25/03A12911/sg>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2003/11/25/03A12911";
+  dct:title "TESTO COORDINATO DEL DECRETO-LEGGE 30 settembre 2003, n. 269" ;
+  dct:description "Testo del decreto-legge 30 settembre 2003, n. 269, coordinato con la legge di conversione 24 novembre 2003, n. 326, recante: Disposizioni urgenti per favorire lo sviluppo e per la correzione dell'andamento dei conti pubblici. In particolare per questa base di dati articolo 50" .
+
+<http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2000-12-29&atto.codiceRedazionale=000G0441>
+  a dcatapit:Standard , dct:Standard ;
+  dct:identifier "2000/12/29/000G0441";
+  dct:title "LEGGE 23 dicembre 2000, n. 388" ;
+  dct:description "Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (legge finanziaria 2001)" .

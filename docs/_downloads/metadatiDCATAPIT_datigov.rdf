@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/datigov_13">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dct:description xml:lang="it">dati.gov.it è il catalogo nazionale dei metadati relativi, allo stato attuale, ai dati rilasciati in formato aperto dalle pubbliche amministrazioni italiane. Esso rappresenta, quindi, il punto di accesso per tutti gli utenti ai dati aperti delle amministrazione, svolgendo anche le funzioni di ricerca come previste nella relativa normativa dell’Informazione del Settore Pubblico. Il catalogo è realizzato dall’Agenzia per l’Italia digitale ed è online dal novembre 2011. L’attività di pubblicazione e di aggiornamento dei dati è un processo collaborativo coordinato dall’Agenzia per l’Italia digitale e svolto in raccordo con tutti gli enti pubblici che espongono dati di tipo aperto. Dati.gov.it è anche lo strumento con il quale l’Agenzia per l’Italia digitale promuove le politiche di valorizzazione del patrimonio informativo pubblico nazionale. A tal fine dati.gov.it mette a disposizione delle amministrazioni e degli sviluppatori una serie di risorse utili ad approfondire il tema dei dati aperti. Attraverso dati.gov.it è possibile, tra gli altri: (i) icercare i dati: nel catalogo sono disponibili i metadati dei dataset pubblicati dalle pubbliche amministrazioni italiane; (ii) usare i metadati: sezione dedicata agli sviluppatori per utilizzare i metadati del catalogo attraverso le API. Il catalogo Dati.gov.it, alla pari degli altri disponibili presso altri Paesi europei, contribuisce ad alimentare il Portale europeo dei dati. E’ in corso una riorganizzazione del catalogo per trasformarlo in un catalogo di dati pubblici della pubblica amministrazione. I canali per il supporto ad amministrazioni e altri utenti sono: 1. Issue tracking su developers Italia; 2. form online “Scrivi alla redazione” 3. Direttamente via email usando l’indirizzo info@dati.gov.it</dct:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dct:identifier>agid_datigov:D.13</dct:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_datigov"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/onto/dcatapit"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-01</dct:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:title>Base dati del catalogo nazionale dei dati aperti delle Pubbliche Amministrazioni - dati.gov.it</dct:title>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:description>Codice dell'amministrazione digitale</dct:description>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2005/05/16/005G0104</dct:identifier>
+    <dct:title>DECRETO LEGISLATIVO 7 marzo 2005, n. 82</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_datigov">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <vcard:fn>Area Architetture, Standard e Infrastrutture - Servizio Banche Dati e Open Data</vcard:fn>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:description>Versione 2.0 del 18-03-2016 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT).</dct:description>
+    <dct:title>DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>http://dati.gov.it/onto/dcatapit/2.0</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>agid</dct:identifier>
+    <foaf:name>Agenzia per l'Italia Digitale</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2015/07/10/15G00116/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>2015/07/10/15G00116</dct:identifier>
+    <dct:title>DECRETO LEGISLATIVO 18 maggio 2015, n. 102</dct:title>
+    <dct:description>Attuazione della direttiva 2013/37/UE che modifica la direttiva 2003/98/CE, relativa al riutilizzo dell'informazione del settore pubblico.</dct:description>
+  </rdf:Description>
+</rdf:RDF>

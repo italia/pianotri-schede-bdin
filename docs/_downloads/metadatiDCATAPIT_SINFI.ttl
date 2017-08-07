@@ -1,0 +1,62 @@
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dati.gov.it/resource/Dataset/BDIN/SINFI_17>
+  a dcatapit:Dataset, dcat:Dataset ;
+  dct:title "Sistema informativo nazionale federato delle infrastrutture" ;
+  skos:altLabel "SINFI" ;
+  dct:description """Registro unico, strumento collaborativo e marketplace delle infrastrutture. Benefici per privati: (i) risparmio (70%) posa nuove fibre ottiche; (ii) condivisione infrastrutture sotterranee; (iii) condivisione scavi (risparmio per cittadini ed operatori). Benefici per altre amministrazioni: (i) presidio del sottosuolo per contributi fiscali; (ii) raccolta dei dati Once Only e condivisione tra le amministrazioni (iii) Possibilità di sfruttare l’infrastruttura come cloud per generare i propri Database Geo Topografici ed i propri GeoPortali (risparmio di risorse, standardizzazione). La banca dati è disponibile via interfaccia web standard. Inoltre esistono due tipi di API Rest: 1. tipiche API Rest in formato standard geografico OCG; 2. specifiche API Rest per la federazione con altri database geotopografici e/o servizi in cloud. I canali per il supporto ad altre amministrazioni e utenti finali sono: (i) Contact Center SINFI: 06.92959765 e (ii) email: validazione@sinfi.it"""@it ;
+  dct:identifier "m_svec_SINFI:D.17" ;
+  dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT> ;
+  dcat:landingPage <http://www.sinfi.it> ;
+  dct:modified "2017-01-08"^^xsd:date ;
+  dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+  dcat:contactPoint <http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_SINFI> ;
+  dct:conformsTo  <http://dati.gov.it/resource/Standard/Standard_SINFI_CEDMISE> , <http://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg> , <http://www.gazzettaufficiale.it/eli/id/2016/06/16/16A04456/sg> , <http://data.europa.eu/eli/dir/2007/2/oj> , <http://data.europa.eu/eli/dir/2014/61/oj> .
+
+<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "m_svec" ;
+    foaf:name "Ministero Sviluppo Economico" .
+
+<http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_SINFI>
+   a vcard:Kind , vcard:Organization , dcatapit:Organization ;
+   vcard:fn "MiSE - Direzione generale per i servizi di comunicazione elettronica, di radiodiffusione e postali" ;
+   vcard:hasEmail <mailto:dgscerp.dg@pec.mise.gov.it> .
+
+
+<http://dati.gov.it/resource/Standard/Standard_SINFI_CEDMISE>
+  a  dcatapit:Standard , dct:Standard ;
+  dct:identifier "CED-MiSE";
+  dct:title "Standard CED MiSE" .
+
+<http://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg>
+  a  dcatapit:Standard , dct:Standard ;
+  dct:identifier "2016/03/09/16G00041";
+  dct:title "DECRETO LEGISLATIVO 15 febbraio 2016, n. 33" ;
+  dct:description "Attuazione della direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014, recante misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocita'." .
+
+<http://www.gazzettaufficiale.it/eli/id/2016/06/16/16A04456/sg>
+  a  dcatapit:Standard , dct:Standard ;
+  dct:identifier "2016/06/16/16A04456";
+  dct:title "MINISTERO DELLO SVILUPPO ECONOMICO - DECRETO 11 maggio 2016  " ;
+  dct:description "Istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture." .
+
+<http://data.europa.eu/eli/dir/2007/2/oj>
+  a  dcatapit:Standard , dct:Standard ;
+  dct:identifier "2007/2/EC";
+  dct:title "Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007" ;
+  dct:description "Establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)" .
+
+<http://data.europa.eu/eli/dir/2014/61/oj>
+  a  dcatapit:Standard , dct:Standard ;
+  dct:identifier "2014/61";
+  dct:title "Direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014" ;
+  dct:description "Misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocità Testo rilevante ai fini del SEE" .

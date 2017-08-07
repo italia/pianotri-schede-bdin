@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg">
+    <dct:identifier>2016/03/09/16G00041</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>DECRETO LEGISLATIVO 15 febbraio 2016, n. 33</dct:title>
+    <dct:description>Attuazione della direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014, recante misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocita'.</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec">
+    <foaf:name>Ministero Sviluppo Economico</foaf:name>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <dct:identifier>m_svec</dct:identifier>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/SINFI_17">
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/06/16/16A04456/sg"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:description xml:lang="it">Registro unico, strumento collaborativo e marketplace delle infrastrutture. Benefici per privati: (i) risparmio (70%) posa nuove fibre ottiche; (ii) condivisione infrastrutture sotterranee; (iii) condivisione scavi (risparmio per cittadini ed operatori). Benefici per altre amministrazioni: (i) presidio del sottosuolo per contributi fiscali; (ii) raccolta dei dati Once Only e condivisione tra le amministrazioni (iii) Possibilità di sfruttare l’infrastruttura come cloud per generare i propri Database Geo Topografici ed i propri GeoPortali (risparmio di risorse, standardizzazione). La banca dati è disponibile via interfaccia web standard. Inoltre esistono due tipi di API Rest: 1. tipiche API Rest in formato standard geografico OCG; 2. specifiche API Rest per la federazione con altri database geotopografici e/o servizi in cloud. I canali per il supporto ad altre amministrazioni e utenti finali sono: (i) Contact Center SINFI: 06.92959765 e (ii) email: validazione@sinfi.it</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/dir/2007/2/oj"/>
+    <dct:title>Sistema informativo nazionale federato delle infrastrutture</dct:title>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/Standard/Standard_SINFI_CEDMISE"/>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/dir/2014/61/oj"/>
+    <dct:identifier>m_svec_SINFI:D.17</dct:identifier>
+    <skos:altLabel>SINFI</skos:altLabel>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/m_svec"/>
+    <dcat:landingPage rdf:resource="http://www.sinfi.it"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-08</dct:modified>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_SINFI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Standard/Standard_SINFI_CEDMISE">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>CED-MiSE</dct:identifier>
+    <dct:title>Standard CED MiSE</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_SINFI">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:fn>MiSE - Direzione generale per i servizi di comunicazione elettronica, di radiodiffusione e postali</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:dgscerp.dg@pec.mise.gov.it"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/eli/dir/2007/2/oj">
+    <dct:description>Establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)</dct:description>
+    <dct:title>Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2007/2/EC</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/06/16/16A04456/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>MINISTERO DELLO SVILUPPO ECONOMICO - DECRETO 11 maggio 2016  </dct:title>
+    <dct:description>Istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>2016/06/16/16A04456</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/eli/dir/2014/61/oj">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>Direttiva 2014/61/UE del Parlamento europeo e del Consiglio, del 15 maggio 2014</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2014/61</dct:identifier>
+    <dct:description>Misure volte a ridurre i costi dell'installazione di reti di comunicazione elettronica ad alta velocità Testo rilevante ai fini del SEE</dct:description>
+  </rdf:Description>
+</rdf:RDF>

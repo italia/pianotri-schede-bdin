@@ -2,7 +2,7 @@
 ===============================================================
 
 Base dati equiparabile a quelle di interesse nazionale.
-E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in `RDF/Turtle <Metadati/metadatiDCATAPIT_SINFI.ttl>`__, `RDF/XML <Metadati/metadatiDCATAPIT_SINFI.rdf>`__ e `JSON-LD <Metadati/metadatiDCATAPIT_SINFI.jsonld>`__.
+E' possibile scaricare i metadati conformi al profilo DCAT-AP_IT per questa basi di dati in :download:`RDF/Turtle <Metadati/metadatiDCATAPIT_SINFI.ttl>`, :download:`RDF/XML <Metadati/metadatiDCATAPIT_SINFI.rdf>` e :download:`JSON-LD <Metadati/metadatiDCATAPIT_SINFI.jsonld>`.
 
 Denominazione ufficiale (titolo)
 --------------------------------

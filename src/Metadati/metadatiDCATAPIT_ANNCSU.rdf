@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/ANNCSU_9">
+    <dct:identifier>age_ISTAT_ANNCS:D.9</dct:identifier>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"/>
+    <dcat:landingPage rdf:resource="http://www.anncsu.gov.it"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg"/>
+    <skos:altLabel>ANNCSU</skos:altLabel>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age"/>
+    <dct:description xml:lang="it">L’Agenzia delle Entrate e l’Istat, sulla base di una convenzione stipulata in data 21 giugno 2010, hanno costituito, in occasione delle attività propedeutiche al 15° censimento della popolazione e delle abitazioni, un archivio informatizzato e codificato, denominato Archivio nazionale degli stradari e dei numeri civici (ANSC), contenente gli stradari (elenco delle denominazioni delle aree di circolazione) e i numeri civici di tutti i Comuni italiani. Il primo impianto di tale archivio è stato effettuato utilizzando l’infrastruttura tecnologica e i dati già predisposti dall’Agenzia per la costituzione dell’archivio nazionale toponomastica, previsto come da accordi con l’ex CNIPA, ora AGID, nel piano di e-gov 2009-2012.
+  Prima dell’avvio del 15° censimento, tali denominazioni sono state modificate o integrate dai 7.585 Comuni non capoluogo di provincia con popolazione inferiore a 20.000 abitanti, tramite le applicazioni messe gratuitamente a disposizione dall’Agenzia sulla piattaforma informatica denominata “Portale per i Comuni”; già utilizzata dai Comuni per la fruizione dei dati catastali. I servizi predisposti sul “Portale per i Comuni” oltre ad agevolare i Comuni nell’informatizzazione dei propri stradari, che nel caso dei piccoli Comuni spesso erano fino a quel momento gestiti in modo cartaceo, hanno supportato i Comuni medesimi negli adempimenti previsti dal Regolamento Anagrafico, inerenti la tenuta e l’aggiornamento dei propri stradari e indirizzari, e negli adempimenti previsti dall’articolo 3 della legge n. 221 del 2012 inerenti il conferimento degli stessi stradari e indirizzari all’Istat. Completato il censimento, l’Istat ha effettuato l’analisi e l’incrocio degli stradari e degli indirizzari forniti dai Comuni, prima e durante il censimento, e ha chiesto a tutti i Comuni italiani di verificare i disallineamenti riscontrati provvedendo, ove necessario, a correggere, integrare e validare i dati fornendo una fotografia della situazione esistente.
+  Ogni singolo comune, completata l’attività di cui sopra, procede alla fase di conferimento dei dati nell’ANNCSU, prevista dall’art. 6, comma 1, del DPCM 12/05/2016 (di seguito DPCM) attivando in tal modo l’ANNCSU, come previsto dall’art. 6, comma 2. Con l’attivazione dell’ANNCSU tutti i dati conferiti saranno verificati, in base alle norme e istruzioni tecniche attuali, dall’Istat che comunicherà gli esiti di tale verifica ai singoli Comuni.
+  L’ANNCSU costituisce uno strumento indispensabile per l’attuazione del censimento permanente della popolazione e delle abitazioni, previsto dall’art. 3, comma 1 del D. L. n. 179/2012. Infatti se da un lato la cadenza, annuale e non più decennale, dei censimenti necessita di comprimere, portandole praticamente a zero, le tempistiche necessarie per la raccolta dei dati relativi agli stradari ed agli indirizzari, dall’altro l’utilizzo dei dati presenti nell’Archivio ANNCSU consentirà dei forti risparmi di spesa, in quanto sostituirà la raccolta dei medesimi dati rilevati in precedenza tramite costosi e laboriosi sopralluoghi sul territorio. Più in generale, l’introduzione dell’ANNCSU consentirà di disporre di un archivio informatizzato, codificato e dinamicamente certificato dai Comuni, da utilizzarsi come riferimento nella trattazione degli indirizzi da parte delle pubbliche amministrazioni, dei cittadini e delle imprese, potendo assicurare nel tempo, grazie ai processi di aggiornamento, un sempre maggiore elevato grado di integrazione con altre banche dati nazionali, quali: la banca dati catastale; l’Anagrafe nazionale della popolazione residente (ANPR) (art. 60, comma 3-bis, del Decreto legislativo n. 82/2005); l’Anagrafe Tributaria; le basi dati utilizzate dall’Istat per lo svolgimento del censimento permanente e la produzione di statistiche territoriali. Ai sensi dell’art. 4 del DPCM, l’ANNCSU costituisce, dalla data di attivazione, il riferimento nazionale per gli stradari e indirizzari comunali. I Comuni potranno utilizzare il proprio stradario/indirizzario sia per lo svolgimento della funzione anagrafica che per lo svolgimento delle funzioni istituzionali di propria competenza, purché i contenuti siano gli stessi di quelli presenti in ANNCSU. I benefici possono essere così riassunti: 1. Disponibilità per Pubbliche Amministrazioni, cittadini ed imprese di un archivio informatizzato, codificato e certificato dai Comuni contenente stradari ed indirizzari. 2. Standardizzazione del dato. 3. Gratuità del dato. 4. Fruibilità del dato in tempo reale, sulla base degli aggiornamenti effettuati dai Comuni. 5. Integrazione del dato con altre banche dati nazionali (Istat, Agenzia delle Entrate e ANPR). 6. Miglioramento della qualità nelle banche, dati gestite dai singoli enti, della componente relativa all’indirizzo. 7. Risparmio a livello di sistema paese nella gestione e trattazione degli indirizzi. Le modalità di fruizione sono: (i) Consultazione ed estrazione dati; (ii) Servizi web; (iii) Open data e cooperazione applicativa.
+  </dct:description>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-31</dct:modified>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/2016/07/19/16A05238/sg"/>
+    <dct:rightsHolder rdf:resource="http://dati.gov.it/resource/AmministrazioneNonIPA/Comuni"/>
+    <dct:title>Archivio nazionale dei numeri civici delle strade urbane</dct:title>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/dir/2007/2/oj"/>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANNCSU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/AmministrazioneNONIPA/Comuni">
+    <foaf:name>Comuni d'Italia</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>com</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <foaf:name>Agenzia delle Entrate</foaf:name>
+    <dct:identifier>age</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2005/05/16/005G0104/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2005/05/16/005G0104</dct:identifier>
+    <dct:description>Codice dell'amministrazione digitale.</dct:description>
+    <dct:title>DECRETO LEGISLATIVO 7 marzo 2005, n. 82</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/eli/dir/2007/2/oj">
+    <dct:title>DIRECTIVE 2007/2/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</dct:title>
+    <dct:description>establishing an Infrastructure for Spatial Information in the European Community (INSPIRE).</dct:description>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>2007/2</dct:identifier>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANNCSU">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <vcard:hasEmail rdf:resource="mailto:dc.ccpi.ansc@agenziaentrate.it"/>
+    <vcard:fn>Agenzia delle Entrate - Direzione Centrale Catasto, Cartografia e Pubblicità Immobiliare - Ufficio Archivio nazionale degli stradari</vcard:fn>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2016/07/19/16A05238/sg">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:title>DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 12 maggio 2016</dct:title>
+    <dct:identifier>2016/07/19/16A05238</dct:identifier>
+    <dct:description>Censimento della popolazione e archivio nazionale dei numeri civici e delle strade urbane.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/2012/12/18/12A13277/sg">
+    <dct:description>Testo del decreto-legge 18 ottobre 2012, n. 179 (pubblicato nel supplemento ordinario n. 194/L alla Gazzetta Ufficiale 19 ottobre 2012, n. 245), coordinato con la legge di conversione 17 dicembre 2012, n. 221 (in questo stesso supplemento ordinario alla pag. 1), recante: Ulteriori misure urgenti per la crescita del Paese.</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:identifier>2012/12/18/12A13277</dct:identifier>
+    <dct:title>TESTO COORDINATO DEL DECRETO-LEGGE 18 ottobre 2012, n. 179</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <dct:identifier>ISTAT</dct:identifier>
+    <foaf:name>Istituto Nazionale di Statistica - ISTAT</foaf:name>
+  </rdf:Description>
+</rdf:RDF>
