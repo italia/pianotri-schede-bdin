@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://dati.gov.it/resource/Standard/Standard_ANAG_ISOIEC27001-2013",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": "Information technology -- Security techniques -- Information security management systems -- Requirements",
+      "dcterms:identifier": "27001:2013",
+      "dcterms:title": "ISO/IEC 27001:20139"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/Dataset/BDIN/ANAG_17",
+      "@type": [
+        "dcat:Dataset",
+        "dcatapit:Dataset"
+      ],
+      "dcat:contactPoint": {
+        "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANAG"
+      },
+      "dcat:landingPage": {
+        "@id": "file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/www.ilportaledellautomobilista.it"
+      },
+      "dcat:theme": {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+      },
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"
+      },
+      "dcterms:conformsTo": [
+        {
+          "@id": "http://www.gazzettaufficiale.it/eli/id/1994/03/22/093A6158/sg"
+        },
+        {
+          "@id": "http://dati.gov.it/resource/Standard/Standard_ANAG_ISOIEC27001-2013"
+        }
+      ],
+      "dcterms:description": {
+        "@language": "it",
+        "@value": "L'archivio contiene tutte le informazioni relative ai titolari di patente, dal primo rilascio, di ogni rinnovo ed eventuali provvedimenti ostativi ( ostativi, revoche, ecc..) di competenza della Motorizzazione o del MIN INT, decurtazione punteggi ecc. I benefici della base di dati possono essere così riassunti: le forze dell'ordine possono accedere h24 e 7 giorni su 7 all'archvio visualizzando tutte le informazioni relativi ai titolari di patente o di carta di qualificazione del conducente o di certificato di formazione professionale. Oltre che i dati tecnici e anagrafici per la maggior parte dei patentati è possibile anche visualizzare la foro del titolare della patente stessa. La banca dati è fruibile attraverso: 1. interfaccia grafica; 2. web services. I manuali tecnici sono disponibili sul portale per gli utenti professionali, dopo essersi loggati"
+      },
+      "dcterms:identifier": "m_inf-MOT_ANAG:D.17",
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-10-09"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/UfficioProtocolloAOO/m_inf-MOT"
+      },
+      "dcterms:title": "Anagrafe nazionale degli abilitati alla guida",
+      "skos:altLabel": "ANAG"
+    },
+    {
+      "@id": "http://www.gazzettaufficiale.it/eli/id/1994/03/22/093A6158/sg",
+      "@type": [
+        "dcterms:Standard",
+        "dcatapit:Standard"
+      ],
+      "dcterms:description": "Testo aggiornato del decreto legislativo 30 aprile 1992, n. 285, recante il nuovo codice della strada.",
+      "dcterms:identifier": "1994/03/22/093A6158",
+      "dcterms:title": "TESTO AGGIORNATO DEL DECRETO LEGISLATIVO 30 aprile 1992, n. 285"
+    },
+    {
+      "@id": "http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANAG",
+      "@type": [
+        "dcatapit:Organization",
+        "vcard:Kind",
+        "vcard:Organization"
+      ],
+      "vcard:fn": "Centro elaborazione dati della Direzione Generale per la Motorizzazione",
+      "vcard:hasEmail": {
+        "@id": "mailto:assistenza.dgmot@mit.gov.it"
+      }
+    },
+    {
+      "@id": "http://spcdata.digitpa.gov.it/browse/page/UfficioProtocolloAOO/m_inf-MOT",
+      "@type": [
+        "foaf:Agent",
+        "dcatapit:Agent"
+      ],
+      "dcterms:identifier": "m_inf-MOT",
+      "foaf:name": "Direzione Generale per la Motorizzazione - Ministero delle Infrastrutture e dei Trasporti"
+    }
+  ]
+}

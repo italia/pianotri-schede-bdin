@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Dataset/BDIN/ANAG_17">
+    <dct:identifier>m_inf-MOT_ANAG:D.17</dct:identifier>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/UfficioProtocolloAOO/m_inf-MOT"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-09</dct:modified>
+    <dcat:landingPage rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/www.ilportaledellautomobilista.it"/>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANAG"/>
+    <dct:description xml:lang="it">L'archivio contiene tutte le informazioni relative ai titolari di patente, dal primo rilascio, di ogni rinnovo ed eventuali provvedimenti ostativi ( ostativi, revoche, ecc..) di competenza della Motorizzazione o del MIN INT, decurtazione punteggi ecc. I benefici della base di dati possono essere così riassunti: le forze dell'ordine possono accedere h24 e 7 giorni su 7 all'archvio visualizzando tutte le informazioni relativi ai titolari di patente o di carta di qualificazione del conducente o di certificato di formazione professionale. Oltre che i dati tecnici e anagrafici per la maggior parte dei patentati è possibile anche visualizzare la foro del titolare della patente stessa. La banca dati è fruibile attraverso: 1. interfaccia grafica; 2. web services. I manuali tecnici sono disponibili sul portale per gli utenti professionali, dopo essersi loggati</dct:description>
+    <skos:altLabel>ANAG</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/resource/Standard/Standard_ANAG_ISOIEC27001-2013"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dct:conformsTo rdf:resource="http://www.gazzettaufficiale.it/eli/id/1994/03/22/093A6158/sg"/>
+    <dct:title>Anagrafe nazionale degli abilitati alla guida</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/Standard/Standard_ANAG_ISOIEC27001-2013">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>ISO/IEC 27001:20139</dct:title>
+    <dct:identifier>27001:2013</dct:identifier>
+    <dct:description>Information technology -- Security techniques -- Information security management systems -- Requirements</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.gazzettaufficiale.it/eli/id/1994/03/22/093A6158/sg">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <dct:title>TESTO AGGIORNATO DEL DECRETO LEGISLATIVO 30 aprile 1992, n. 285</dct:title>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:description>Testo aggiornato del decreto legislativo 30 aprile 1992, n. 285, recante il nuovo codice della strada.</dct:description>
+    <dct:identifier>1994/03/22/093A6158</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/UfficioProtocolloAOO/m_inf-MOT">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <dct:identifier>m_inf-MOT</dct:identifier>
+    <foaf:name>Direzione Generale per la Motorizzazione - Ministero delle Infrastrutture e dei Trasporti</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/resource/BDIN/ContactPoint/Contact_Point_ANAG">
+    <vcard:hasEmail rdf:resource="mailto:assistenza.dgmot@mit.gov.it"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <vcard:fn>Centro elaborazione dati della Direzione Generale per la Motorizzazione</vcard:fn>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  </rdf:Description>
+</rdf:RDF>

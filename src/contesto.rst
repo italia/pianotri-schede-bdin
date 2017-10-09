@@ -35,6 +35,11 @@ A queste vanno aggiunte altre basi di dati che hanno una valenza equiparabile a 
   + Il **Catalogo dei servizi pubbici ai cittadini e imprese - servizi.gov.it**
   + Il **Sistema Informativo Nazionale Federato delle Infrastrutture (SINFI)**
 
+L'Agenzia per l'Italia Digitale e il Team per la Trasformazione Digitale hanno ritenuto importante inserire nell'elenco delle basi dati con una valenza equiparabile a quella delle basi dati di interesse nazionale le seguenti ulteriori, a integrazione di quelle già incluse nel Piano Triennale:
+
+  + L'**Archivio Nazionale dei Veicoli (ANV)**
+  + L'**Anagrafe Nazionale degli Abilitati alla Guida (ANAG)**
+
 Scopo del documento
 -------------------
 .. note::
