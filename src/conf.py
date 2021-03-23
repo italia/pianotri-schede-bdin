@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Datipubblici - Schede descrittive basi dati di interesse nazionale"
+settings_project_name = "Schede informative basi di dati di interesse nazionale"
 settings_copyright_copyleft = 'AgID - Agenzia per l\'Italia Digitale'
 settings_editor_name = 'AgID - Agenzia per l\'Italia Digitale'
 settings_doc_version = 'version 1.0'
