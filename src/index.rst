@@ -33,5 +33,3 @@ Indice dei contenuti
    datigov.rst
    servizigov.rst
    sinfi.rst
-   anv.rst
-   anag.rst
